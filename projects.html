@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <meta content="width=device-width,initial-scale=1" name=viewport>
+    <link href=favicon.png rel=icon type=image/png>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" -->
+    <!-- integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <style>
+        html {
+            height: 100%;
+            background-color: #190033;
+            color: #FFFFFF;
+            font-family: 'Noto Sans Mono', monospace;
+        }
+
+        .sidebar-item {
+            font-size: 1.5rem;
+            padding: 0.5rem;
+        }
+
+        a:hover.sidebar-item {
+            background-color: #380a69;
+            border-radius: 0.5rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FFFFFF
+        }
+    </style>
+    <title>ChauLe19's Page</title>
+</head>
+
+<body style="height:100%">
+    <div id="fullpage" style="display:flex; flex-direction: row; height:100%">
+        <div style="display:flex; flex-direction: column; width:20rem; min-width: fit-content;">
+            <div style="padding:1rem; font-size:2rem;">
+                Chau Le
+            </div>
+            <a href="/index.html" class="sidebar-item">
+                Home
+            </a>
+            <a href="#" class="sidebar-item">
+                Projects
+
+            </a>
+           
+            <div class="sidebar-item" id="contacts" style="display:flex; align-items: center;">
+                <div style="padding:0.5rem">
+
+                    <a href="https://github.com/ChauLe19">
+                        <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem"
+                            viewbox="0 0 24 24">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                </div>
+                <div style="padding:0.5rem">
+                    <a href="https://www.linkedin.com/in/chau-le-80b713192/">
+                        <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem"
+                            viewbox="0 0 24 24">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div style="flex-grow:1;display: flex; font-size: 2rem; flex-direction: column;">
+            <div style="align-items: center;">
+                <div style="text-align:center;">Programming Projects</div>
+                <div style="display:flex;flex-direction: row; font-size: 1.5rem;">
+
+                    <div style="width:33%;">
+                        <div style="margin: 1rem">
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    TetroRhythm
+                                </b>
+                                <div>
+
+                                    <img style="object-fit: contain;height: 100%; width: 100%;"
+                                        src="TetroRhythm.webp" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    A puzzle game that challenges you to place blocks to the beat
+                                </span>
+                            </div>
+                        </div>
+                        <div style="margin: 1rem">
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    CalCheck
+                                </b>
+                                <div>
+
+                                    <img style="object-fit: contain;height: 100%; width: 100%;" src="CalCheck.png" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    A calorie tracking website
+                                </span>
+                            </div>
+                        </div>
+                        <div style="margin: 1rem">
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    Xpira
+                                </b>
+                                <div>
+
+                                    <img style="object-fit: contain;height: 100%; width: 100%;" src="Xpira.png" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    An Android app for tracking expiration date of items
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 33%;">
+                        <div style="margin: 1rem">
+
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    Chess
+                                </b>
+                                <div>
+                                    <img style="object-fit: contain;width: 100%; height:100%;" src="chess.png" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    A 2-player chess game
+                                </span>
+                            </div>
+                        </div>
+                        <div style="margin: 1rem">
+
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    BookTrader
+                                </b>
+                                <div>
+                                    <img style="object-fit: contain;width: 100%; height:100%;" src="BookTrader.png" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    A website for buying and selling books
+                                </span>
+                            </div>
+                        </div>
+                        <div style="margin: 1rem">
+
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    Pic Made From Unicode Texts
+                                </b>
+                                <div>
+                                    <img style="object-fit: contain;width: 100%; height:100%;" src="PicFromTexts.png" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    Convert your picture to a Picture made from Unicode Texts
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 33%; ">
+                        <div style="margin: 1rem">
+
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    Depreak
+                                </b>
+                                <div>
+                                    <img style="object-fit: contain;width: 100%; height:100%;"
+                                        src="Depreak Gameplay.png" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    A remake of the Brick Breaker game
+                                </span>
+                            </div>
+                        </div>
+                        <div style="margin: 1rem">
+
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    MIPS Simulator
+                                </b>
+                                <div>
+                                    <img style="object-fit: contain;width: 100%; height:100%;"
+                                        src="https://eagle-sensors.com/wp-content/uploads/unavailable-image.jpg" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    A debugger for MIPS program
+                                </span>
+                            </div>
+                        </div>
+                        <div style="margin: 1rem">
+
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    TetrioStats2Csv
+                                </b>
+                                <div>
+                                    <img style="object-fit: contain;width: 100%; height:100%;"
+                                        src="https://eagle-sensors.com/wp-content/uploads/unavailable-image.jpg" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    Get Tetr.io players' stats and output to .csv file 
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div style="align-items: center;">
+                <div style="text-align:center;">Other Projects</div>
+                <div style="display:flex;flex-direction: row; font-size: 1.5rem;">
+
+                    <div style="width:33%;">
+                        <div style="margin: 1rem">
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    Smart Home Project
+                                </b>
+                                <div>
+
+                                    <iframe style="object-fit: contain;height: 100%; width: 100%;"
+                                        src="https://www.youtube.com/embed/EYejsoCmu1w" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+
+                                </div>
+                                <span style="font-size: 1.1rem;">
+                                    A smart home
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div style="width: 33%;">
+                        <div style="margin: 1rem">
+
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    Automatic Plant Watering System
+                                </b>
+                                <div>
+                                    <img style="object-fit: contain;width: 100%; height:100%;"
+                                        src="AutoWateringSchem.jpg" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    Automatic system that waters plants based on soil moisture
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div style="width: 33%; ">
+                        <div style="margin: 1rem">
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    Stackmat
+                                </b>
+                                <div>
+                                    <img style="object-fit: contain;width: 100%; height:100%;"
+                                        src="Stackmat.jpg" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    A low-cost stackmat for cubing and cup stacking
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
