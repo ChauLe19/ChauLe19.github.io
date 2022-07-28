@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cb0a44a524.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="global.css">
     <style>
         html {
@@ -31,6 +32,14 @@
             text-decoration: none;
             color: #FFFFFF
         }
+
+        .project-box .overlay {
+            visibility: hidden;
+        }
+
+        .project-box:hover .overlay {
+            visibility: visible;
+        }
     </style>
     <title>ChauLe19's Page</title>
 </head>
@@ -48,25 +57,16 @@
                 Projects
 
             </a>
-           
+
             <div class="sidebar-item" id="contacts" style="display:flex; align-items: center;">
                 <div style="padding:0.5rem">
-
-                    <a href="https://github.com/ChauLe19">
-                        <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem"
-                            viewbox="0 0 24 24">
-                            <path
-                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                        </svg>
+                    <a target="_blank" href="https://github.com/ChauLe19">
+                        <i class="fa-brands fa-github fa-xl"></i>
                     </a>
                 </div>
                 <div style="padding:0.5rem">
-                    <a href="https://www.linkedin.com/in/chau-le-80b713192/">
-                        <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem"
-                            viewbox="0 0 24 24">
-                            <path
-                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                        </svg>
+                    <a target="_blank" href="https://www.linkedin.com/in/chau-le-80b713192/">
+                        <i class="fa-brands fa-linkedin fa-xl"></i>
                     </a>
                 </div>
             </div>
@@ -77,13 +77,12 @@
                 <div style="display:flex;flex-direction: row; font-size: 1.5rem;">
 
                     <div style="width:33%;">
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
                                     TetroRhythm
                                 </b>
                                 <div>
-
                                     <img style="object-fit: contain;height: 100%; width: 100%;"
                                         src="TetroRhythm.webp" />
                                 </div>
@@ -92,23 +91,44 @@
                                     A puzzle game that challenges you to place blocks to the beat
                                 </span>
                             </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                    <a target="_blank" href="https://github.com/ChauLe19/TetroRhythm">
+                                        <i class="fa-brands fa-github fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=EFS-EdkFegI">
+                                        <i class="fa-brands fa-youtube fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                    <a target="_blank" href="https://github.com/ChauLe19/TetroRhythm/releases/tag/v0.1.0">
+                                        <i class="fa-solid fa-arrow-up-right-from-square fa-3x"
+                                            style="padding: 1rem;"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
                                     CalCheck
                                 </b>
                                 <div>
-
                                     <img style="object-fit: contain;height: 100%; width: 100%;" src="CalCheck.png" />
                                 </div>
-
                                 <span style="font-size: 1.1rem;">
                                     A calorie tracking website
                                 </span>
                             </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                    <a target="_blank" href="https://github.com/aditi977/CalCheck-2.0">
+                                        <i class="fa-brands fa-github fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
                                     Xpira
@@ -122,10 +142,25 @@
                                     An Android app for tracking expiration date of items
                                 </span>
                             </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                    <a target="_blank" href="https://github.com/daltarace/HackVioletProject">
+                                        <i class="fa-brands fa-github fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=aUJ_0MKUKnY">
+                                        <i class="fa-brands fa-youtube fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                    <a target="_blank" href="https://devpost.com/software/xpira">
+                                        <i class="fa-solid fa-arrow-up-right-from-square fa-3x"
+                                            style="padding: 1rem;"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div style="width: 33%;">
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
 
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
@@ -139,8 +174,16 @@
                                     A 2-player chess game
                                 </span>
                             </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                    <a target="_blank" href="https://github.com/ChauLe19/Chess">
+                                        <i class="fa-brands fa-github fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
 
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
@@ -154,8 +197,16 @@
                                     A website for buying and selling books
                                 </span>
                             </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                    <a target="_blank" href="https://github.com/ChauLe19/Book_Exchange-2.0">
+                                        <i class="fa-brands fa-github fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
 
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
@@ -169,10 +220,47 @@
                                     Convert your picture to a Picture made from Unicode Texts
                                 </span>
                             </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                    <a target="_blank" href="https://github.com/ChauLe19/PicMadeFromTexts">
+                                        <i class="fa-brands fa-github fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                    <a target="_blank" href="https://chaule19.github.io/PicMadeFromTexts/">
+                                        <i class="fa-solid fa-arrow-up-right-from-square fa-3x"
+                                            style="padding: 1rem;"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div style="width: 33%; ">
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
+
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    Text Transformer
+                                </b>
+                                <div>
+                                    <img style="object-fit: contain;width: 100%; height:100%;"
+                                        src="TextTransformer.png" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    A customizable text transformer
+                                </span>
+                            </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div
+                                    style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center;">
+                                    <a href="/TextTransformer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square fa-3x"
+                                            style="padding: 1rem;"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box" style="margin: 1rem; position: relative;">
 
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
@@ -184,11 +272,18 @@
                                 </div>
 
                                 <span style="font-size: 1.1rem;">
-                                    A remake of the Brick Breaker game
+                                    A remix of the Brick Breaker game
                                 </span>
                             </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div
+                                    style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center;">
+                                    I have no backup of this project :(((
+                                </div>
+                            </div>
                         </div>
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
 
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
@@ -203,8 +298,19 @@
                                     A debugger for MIPS program
                                 </span>
                             </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem; text-align: center;">
+                                <div
+                                    style="display: flex; flex-wrap: wrap; justify-content: center; flex-direction: column;">
+                                    <a target="_blank" href="https://github.com/ChauLe19/MIPS_Simulator">
+                                        <i class="fa-brands fa-github fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                    <div style="font-size: 16px;">(University project. Code cannot be public anytime soon.)
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
 
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
@@ -216,8 +322,16 @@
                                 </div>
 
                                 <span style="font-size: 1.1rem;">
-                                    Get Tetr.io players' stats and output to .csv file 
+                                    Get Tetr.io players' stats and output to .csv file
                                 </span>
+                            </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                    <a target="_blank" href="https://github.com/ChauLe19/TetrioStats2Csv">
+                                        <i class="fa-brands fa-github fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -230,29 +344,60 @@
                 <div style="display:flex;flex-direction: row; font-size: 1.5rem;">
 
                     <div style="width:33%;">
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
                                     Smart Home Project
                                 </b>
                                 <div>
-
-                                    <iframe style="object-fit: contain;height: 100%; width: 100%;"
-                                        src="https://www.youtube.com/embed/EYejsoCmu1w" title="YouTube video player"
-                                        frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
-
+                                    <img style="object-fit: contain;width: 100%; height:100%;" src="SmartHome.png" />
                                 </div>
                                 <span style="font-size: 1.1rem;">
                                     A home automation prototype controllable by a computer GUI application via Bluetooth
                                 </span>
                             </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div
+                                    style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center;">
+                                    <a target="_blank" href="https://github.com/ChauLe19/SmartHomeProject">
+                                        <i class="fa-brands fa-github fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=EYejsoCmu1w">
+                                        <i class="fa-brands fa-youtube fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                    <div style="font-size: 16px;">(University project. Code cannot be public anytime soon.)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box" style="margin: 1rem; position: relative;">
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    Tetris Puzzle
+                                </b>
+                                <div>
+                                    <img style="object-fit: contain;width: 100%; height:100%;" src="TetrisPuzzle.png" />
+                                </div>
+                                <span style="font-size: 1.1rem;">
+                                    A 3D model of a Tetris Puzzle
+                                </span>
+                            </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div
+                                    style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center;">
+                                    <a target="_blank" href="https://www.thingiverse.com/thing:4661066">
+                                        <i class="fa-solid fa-arrow-up-right-from-square fa-3x"
+                                            style="padding: 1rem;"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
                     <div style="width: 33%;">
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
 
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
@@ -267,23 +412,70 @@
                                     Automatic system that waters plants based on soil moisture
                                 </span>
                             </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div
+                                    style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center;">
+                                    <a target="_blank" href="https://drive.google.com/file/d/1Ltds0gr_l8ZcJWsi4f2SzXRMSAluUd-O/view?usp=sharing">
+                                        <i class="fa-solid fa-arrow-up-right-from-square fa-3x"
+                                            style="padding: 1rem;"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
                     <div style="width: 33%; ">
-                        <div style="margin: 1rem">
+                        <div class="project-box" style="margin: 1rem; position: relative;">
                             <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
                                 <b>
                                     Stackmat
                                 </b>
                                 <div>
-                                    <img style="object-fit: contain;width: 100%; height:100%;"
-                                        src="Stackmat.jpg" />
+                                    <img style="object-fit: contain;width: 100%; height:100%;" src="Stackmat.jpg" />
                                 </div>
 
                                 <span style="font-size: 1.1rem;">
                                     A low-cost stackmat for cubing and cup stacking
                                 </span>
+                            </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                    <a target="_blank" href="https://drive.google.com/file/d/12SJhsdVNekENgSdLvOsQI23MkvlIu5VT/view">
+                                        <i class="fa-brands fa-github fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                    <a target="_blank" href="https://drive.google.com/file/d/1lDcPcrXZjifQzWkgSoDj4jNCBydAqcox/view">
+                                        <i class="fa-brands fa-youtube fa-3x" style="padding: 1rem;"></i>
+                                    </a>
+                                    <a target="_blank" href="https://www.instructables.com/Arduino-Stack-Mat/">
+                                        <i class="fa-solid fa-arrow-up-right-from-square fa-3x"
+                                            style="padding: 1rem;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box" style="margin: 1rem; position: relative;">
+                            <div style="background:#380a69; border-radius: 1rem; padding: 2rem; text-align: center;">
+                                <b>
+                                    Pokeball Wireless Earbuds Case
+                                </b>
+                                <div>
+                                    <img style="object-fit: contain;width: 100%; height:100%;" src="Pokeball.jpg" />
+                                </div>
+
+                                <span style="font-size: 1.1rem;">
+                                    A 3D model of a wireless earbuds cases shaped like a Pokeball
+                                </span>
+                            </div>
+                            <div class="overlay"
+                                style="display: flex; background: #380a69; border-radius: 1rem; align-items: center; justify-content: center; flex-wrap: wrap; padding: 1rem;">
+                                <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+                                    <a target="_blank" href="https://www.thingiverse.com/thing:5443386">
+                                        <i class="fa-solid fa-arrow-up-right-from-square fa-3x"
+                                            style="padding: 1rem;"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
