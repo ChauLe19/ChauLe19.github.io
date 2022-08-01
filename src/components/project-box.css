@@ -1,0 +1,49 @@
+.project-box {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-box .overlay {
+    visibility: hidden;
+}
+
+.project-box:hover .overlay {
+    visibility: visible;
+}
+
+.main {
+    background: #380a69;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.main .description {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.project-box .main img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    display: flex;
+    background: #380a69;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-content: center;
+    text-align: center;
+}
+
+.overlay .link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

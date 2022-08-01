@@ -1,0 +1,80 @@
+#intro {
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  width: 16rem;
+  height: 100%;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  min-width: fit-content;
+}
+
+.header-title {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.sidebar-item {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+a:hover.sidebar-item {
+  background-color: #330066;
+  border-radius: 0.5rem;
+}
+
+.contact .icon {
+  padding: 0.5rem;
+}
+
+.sidebar-item.contact {
+  display: flex;
+  align-items: center;
+}
+
+.page {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects-section {
+    column-count: 2;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .projects-section {
+    column-count: 3;
+  }
+}
+
+.projects-section {
+  flex-direction: row;
+  font-size: 1.6rem;
+  column-gap: 2rem;
+}
+
+.projects-section .project-box {
+  break-inside: avoid;
+  display: inline-block;
+  width: 100%;
+}
