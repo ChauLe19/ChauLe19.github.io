@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.47ddbd07.css",
-    "main.js": "/static/js/main.a379c0a8.js",
+    "main.js": "/static/js/main.f1724b59.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/Pokeball.jpg": "/static/media/Pokeball.15063709231ea3263748.jpg",
     "static/media/SmartHome.png": "/static/media/SmartHome.c96802200af2781c2d43.png",
@@ -19,11 +19,11 @@
     "static/media/Depreak Gameplay.png": "/static/media/Depreak Gameplay.6aaf0a2343884e1411c4.png",
     "index.html": "/index.html",
     "main.47ddbd07.css.map": "/static/css/main.47ddbd07.css.map",
-    "main.a379c0a8.js.map": "/static/js/main.a379c0a8.js.map",
+    "main.f1724b59.js.map": "/static/js/main.f1724b59.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47ddbd07.css",
-    "static/js/main.a379c0a8.js"
+    "static/js/main.f1724b59.js"
   ]
 }
