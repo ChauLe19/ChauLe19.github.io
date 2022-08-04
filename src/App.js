@@ -24,7 +24,7 @@ function Intro() {
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <Fragment>
         <header className="app-header">
           <div className="header-title">
