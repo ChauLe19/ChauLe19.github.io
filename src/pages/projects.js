@@ -222,13 +222,13 @@ class Projects extends Component {
     render() {
         return (
             <div className="page">
-                <div className="title" style={{ textAlign: "center" }}>Programming Projects</div>
+                <h1 style={{ textAlign: "center" }}>Programming Projects</h1>
                 <div className="projects-section">
                     {this.programmingProjects.map((project) => (
                         <ProjectBox name={project.name} links={project.links} description={project.description} image={project.image} message={project.message} key={project.name} />
                     ))}
                 </div>
-                <div className="title" style={{ textAlign: "center" }}>Other Projects</div>
+                <h1 style={{ textAlign: "center" }}>Other Projects</h1>
                 <div className="projects-section">
                     {this.otherProjects.map((project) => (
                         <ProjectBox name={project.name} links={project.links} description={project.description} image={project.image} message={project.message} key={project.name} />

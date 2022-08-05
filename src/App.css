@@ -15,7 +15,6 @@
 .app-header {
   display: flex;
   flex-direction: column;
-  width: 20rem;
   min-width: fit-content;
 }
 
@@ -27,6 +26,10 @@
 .sidebar-item {
   font-size: 1.5rem;
   padding: 0.5rem;
+}
+
+a.sidebar-item {
+  border-radius: 0.5rem;
 }
 
 a:hover.sidebar-item {
@@ -50,21 +53,8 @@ a:hover.sidebar-item {
   padding: 1rem;
 }
 
-.title {
-  font-size: 2rem;
-}
-
-@media only screen and (min-width: 768px) {
-  .projects-section {
-    column-count: 2;
-  }
-}
-
-
-@media only screen and (min-width: 1200px) {
-  .projects-section {
-    column-count: 3;
-  }
+.page-section {
+  font-size: 1.6rem;
 }
 
 .projects-section {
@@ -77,4 +67,97 @@ a:hover.sidebar-item {
   break-inside: avoid;
   display: inline-block;
   width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+.copy-to-clipboard {
+  width: 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.flex-spacing {
+  display: none;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 600px) {
+  #contacts {
+    order: 1;
+  }
+
+  .menu {
+    order: 3;
+    text-align: center;
+    display: none;
+  }
+
+  .app-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #380a69;
+    border-radius: 0.5rem;
+  }
+
+  input[type=checkbox]:checked~.menu {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    padding: 1rem;
+    order: 2;
+  }
+
+  .flex-spacing {
+    display: flex;
+  }
+
+  .menu a {
+    background-color: #380a69;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .projects-section {
+    column-count: 1;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .projects-section {
+    column-count: 1;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .projects-section {
+    column-count: 2;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .projects-section {
+    column-count: 3;
+  }
 }
