@@ -6,12 +6,12 @@
 
 .project-box .overlay {
     visibility: hidden;
-    pointer-events: none;
+    /* disable double tap on mobile device */
+    transition:visibility 0.3s linear,opacity 0.3s linear;
 }
 
 .project-box:hover .overlay {
     visibility: visible;
-    pointer-events: unset;
 }
 
 .main {
