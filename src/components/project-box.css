@@ -6,10 +6,12 @@
 
 .project-box .overlay {
     visibility: hidden;
+    pointer-events: none;
 }
 
 .project-box:hover .overlay {
     visibility: visible;
+    pointer-events: unset;
 }
 
 .main {
