@@ -7,7 +7,7 @@ import {
   Navigate
 } from "react-router-dom";
 import {
-  Fragment
+  Fragment, useEffect
 } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -35,7 +35,7 @@ function App() {
 
           <div className="flex-spacing"></div>
           <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <label htmlFor="checkbox_toggle" className="hamburger">&#9776;</label>
           <div id="menu" className='menu'>
             <Link to="/" className="sidebar-item">
               Home

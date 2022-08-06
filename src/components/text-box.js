@@ -5,14 +5,19 @@ class TextBox extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            buttonText: 'Copy to clipboard'
+            buttonText: 'Copy to clipboard',
+            lineCount: "1."
         };
-        this.handleChange = this.handleChange.bind(this);
         this.clipboardTimeout = undefined;
     }
 
-    handleChange(event) {
-        this.setState({ value: event.target.value });
+    getLineCounterText() {
+        const lineCount = this.props.text.split('\n').length;
+        var outarr = new Array();
+        for (var x = 0; x < lineCount; x++) {
+            outarr[x] = (x + 1) + '.';
+        }
+        return outarr.join('\n');
     }
 
     copy2Clipboard(event) {
@@ -25,10 +30,12 @@ class TextBox extends Component {
     render() {
         return (
             <div style={{ flex: 1 }}>
-                <button className="copy-to-clipboard" onClick={this.copy2Clipboard.bind(this)}>{this.state.buttonText}</button>
-                <textarea style={{ borderTopLeftRadius: 0 }} className="lineCounter" wrap='off'
-                    readonly value="1." />
-                <textarea className="codeEditor" wrap='soft' style={{ borderTopRightRadius: 0 }} placeholder="Enter text here..." value={this.props.text} onChange={this.props.onChange}/>
+                { this.props.copiable &&
+                    <button className="copy-to-clipboard" onClick={this.copy2Clipboard.bind(this)}>{this.state.buttonText}</button>
+                }
+                <textarea style={this.props.copiable && { borderTopLeftRadius: 0 }} className="lineCounter" wrap='off'
+                    readOnly value={this.getLineCounterText()} />
+                <textarea className="codeEditor" wrap='soft' style={this.props.copiable && { borderTopRightRadius: 0 }} placeholder="Enter text here..." value={this.props.text} onChange={this.props.onChange}/>
             </div>
         )
     }
