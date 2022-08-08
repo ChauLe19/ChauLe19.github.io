@@ -83,7 +83,7 @@ class Projects extends Component {
             links: [
                 {
                     type: LinkType.Github,
-                    href: "https://github.com/ChauLe19/Book_Exchange-2.0"
+                    href: "https://github.com/ChauLe19/Book_Exchange_v1.0"
                 }
             ],
             image: BookTrader,
