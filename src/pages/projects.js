@@ -204,7 +204,7 @@ class Projects extends Component {
                 }
             ],
             image: Stackmat,
-            description: "A low-cost stackmat for cubing and cub stacking"
+            description: "A low-cost stackmat for cubing and cup stacking"
         },
         {
             name: "Pokeball Wireless Earbuds Case",
