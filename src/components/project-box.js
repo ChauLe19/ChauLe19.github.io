@@ -11,7 +11,6 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 function LinkIcon(props) {
     return (
         <Fragment>
-
             {
                 (() => {
                     switch (props.type) {
