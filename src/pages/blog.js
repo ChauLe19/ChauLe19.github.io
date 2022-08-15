@@ -1,9 +1,8 @@
 import { Component } from "react"
-import ReactMarkdown from 'https://esm.sh/react-markdown@7'
+import ReactMarkdown from 'react-markdown'
 import {
   useParams
 } from "react-router-dom";
-import raw from 'raw.macro'
 
 function withParams(Component) {
     return props => <Component {...props} params={useParams()} />;
