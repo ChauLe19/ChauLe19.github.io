@@ -14,6 +14,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Projects from "./pages/projects"
 import { faTriangleExclamation } from '@fortawesome/free-solid-svg-icons';
 import TextTransformer from './pages/TextTransformer';
+import Blog from './pages/blog';
 
 function Intro() {
   return (
@@ -61,6 +62,7 @@ function App() {
           <Route exact path="/" element={<Intro />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/TextTransformer" element={<TextTransformer />} />
+          <Route path="/blog/:id" element={<Blog />} />
           <Route path='/404' element={<div className='page' id='intro'><FontAwesomeIcon icon={faTriangleExclamation} size="5x"/>Oops, page not found!</div>} />
           <Route path='*' element={<Navigate replace to='/404' />} />
         </Routes>
