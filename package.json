@@ -17,6 +17,8 @@
     "react-markdown": "^8.0.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "remark-gfm": "^3.0.1",
+    "remark-sub-super": "^1.0.20",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

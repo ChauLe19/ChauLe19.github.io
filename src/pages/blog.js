@@ -1,5 +1,6 @@
 import { Component } from "react"
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import {
   useParams
 } from "react-router-dom";
@@ -25,8 +26,8 @@ class Blog extends Component {
 
     render() {
         return (
-            <div className="page">
-                <ReactMarkdown>{this.state.text}</ReactMarkdown>
+            <div className="page blog-container">
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>{this.state.text}</ReactMarkdown>
             </div>
         )
     }

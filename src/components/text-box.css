@@ -28,7 +28,7 @@
     border-top-right-radius: 0rem;
     border-bottom-right-radius: 0rem;
     /* Determine appearance of line counter */
-    background-color: #20043f;
+    background-color: var(--primaryColor);
     border: solid #ffffff;
     color: #ffffff;
 }
@@ -38,7 +38,7 @@
     width: 100%;
     white-space: pre-wrap;
     /* Determine appearance of code editor */
-    background-color: #20043f;
+    background-color: var(--primaryColor);
     border: solid #ffffff;
     color: #ffffff;
 }

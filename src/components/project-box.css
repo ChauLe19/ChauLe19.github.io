@@ -15,7 +15,7 @@
 }
 
 .main {
-    background: #380a69;
+    background: var(--primaryColor);
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
@@ -34,7 +34,7 @@
 
 .overlay {
     display: flex;
-    background: #380a69;
+    background: var(--primaryColor);
     border-radius: 1rem;
     align-items: center;
     justify-content: center;

@@ -12,8 +12,10 @@ code {
 }
 
 html {
+  --primaryColor:#29044e;
+  --secondaryColor:#130027;
   height: 100%;
-  background: #190033;
+  background: var(--secondaryColor);
   color: #FFFFFF;
   font-family: 'Noto Sans Mono', monospace;
 }
@@ -21,7 +23,7 @@ html {
 #root {
   display: flex;
   flex-direction: row;
-  height: 100%;
+  min-height: 100%;
 }
 
 
@@ -38,7 +40,7 @@ a {
 
 button {
   background-color: #FFFFFF;
-  color: #190033;
+  color: var(--secondaryColor);
   border: none;
   padding: 1rem;
   border-radius: 0.5rem;
