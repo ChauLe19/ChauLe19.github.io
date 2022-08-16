@@ -116,10 +116,12 @@ Using units of voltage and current to find the unit of power:
 >           = (J/C) x (C/s)
 >           = J/s
 
-    We define:
-1 J/s = 1 W
-J/s: Joules per Second
-W: Watts
+We define:
+> 1 J/s = 1 W
+>
+> J/s: Joules per Second
+>
+> W: Watts
 
 RECAP:
 
