@@ -19,7 +19,7 @@ import Blog from './pages/blog';
 function Intro() {
   return (
     <div className='page' id="intro">
-      <div>Hi, I'm Chau Le<div>A programmer who enjoys making stuff.</div>
+      <div>Hi, I'm Chau Le<div>A programmer who enjoys making things other than just software programs too.</div>
       </div>
     </div>
   )
