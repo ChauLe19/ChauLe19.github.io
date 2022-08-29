@@ -129,6 +129,10 @@ input[type=checkbox] {
   background-color: var(--secondaryColor);
 }
 
+.blog-container a {
+  color: yellow;
+}
+
 @media screen and (max-width: 600px) {
   #contacts {
     order: 1;
