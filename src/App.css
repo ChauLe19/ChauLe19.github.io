@@ -184,6 +184,10 @@ input[type=checkbox] {
   .projects-section {
     column-count: 1;
   }
+
+  #intro {
+    padding: 1rem;
+  }
 }
 
 @media screen and (min-width:768px) {
@@ -196,11 +200,19 @@ input[type=checkbox] {
   .projects-section {
     column-count: 2;
   }
+
+  #intro {
+    padding: 3rem;
+  }
 }
 
 
 @media only screen and (min-width: 1200px) {
   .projects-section {
     column-count: 3;
+  }
+
+  #intro {
+    padding: 7rem;
   }
 }
