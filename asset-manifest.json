@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7fb82497.css",
-    "main.js": "/static/js/main.cd65882f.js",
+    "main.js": "/static/js/main.5943bace.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/Pokeball.jpg": "/static/media/Pokeball.15063709231ea3263748.jpg",
     "static/media/SmartHome.png": "/static/media/SmartHome.c96802200af2781c2d43.png",
@@ -81,11 +81,11 @@
     "index.html": "/index.html",
     "static/media/egg.md": "/static/media/egg.d8dcaa311630abf59f97.md",
     "main.7fb82497.css.map": "/static/css/main.7fb82497.css.map",
-    "main.cd65882f.js.map": "/static/js/main.cd65882f.js.map",
+    "main.5943bace.js.map": "/static/js/main.5943bace.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7fb82497.css",
-    "static/js/main.cd65882f.js"
+    "static/js/main.5943bace.js"
   ]
 }
