@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.8ed3a115.css",
-    "main.js": "/static/js/main.9fa74083.js",
+    "main.js": "/static/js/main.6676b25b.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/Pokeball.jpg": "/static/media/Pokeball.15063709231ea3263748.jpg",
     "static/media/SmartHome.png": "/static/media/SmartHome.c96802200af2781c2d43.png",
     "static/media/BookTrader.png": "/static/media/BookTrader.acb8b759e326b527fe95.png",
     "static/media/AutoWateringSchem.jpg": "/static/media/AutoWateringSchem.35d100723da2f861766b.jpg",
+    "static/media/GitRecording.png": "/static/media/GitRecording.28ebd96d44626c4132e3.png",
     "static/media/TetroRhythm.webp": "/static/media/TetroRhythm.0131f9fe8e9732f09ab5.webp",
     "static/media/TextTransformer.png": "/static/media/TextTransformer.b3a57cfd58e15fab53b2.png",
     "static/media/chess.png": "/static/media/chess.8e5b02704fe1025908c8.png",
@@ -81,11 +82,11 @@
     "index.html": "/index.html",
     "static/media/egg.md": "/static/media/egg.d8dcaa311630abf59f97.md",
     "main.8ed3a115.css.map": "/static/css/main.8ed3a115.css.map",
-    "main.9fa74083.js.map": "/static/js/main.9fa74083.js.map",
+    "main.6676b25b.js.map": "/static/js/main.6676b25b.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ed3a115.css",
-    "static/js/main.9fa74083.js"
+    "static/js/main.6676b25b.js"
   ]
 }
