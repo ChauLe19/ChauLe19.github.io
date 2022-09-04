@@ -14,28 +14,25 @@ import TetrisPuzzle from "../assets/TetrisPuzzle.png"
 import TetroRhythm from "../assets/TetroRhythm.webp"
 import TextTransformer from "../assets/TextTransformer.png"
 import Xpira from "../assets/Xpira.png"
+import GitRecording from "../assets/GitRecording.png"
 import LinkType from "../enums/link-type"
 
 class Projects extends Component {
     programmingProjects = [
         {
-            name: "TetroRhythm",
+            name: "GitRecording",
             links: [
                 {
                     type: LinkType.Github,
-                    href: "https://github.com/ChauLe19/TetroRhythm"
+                    href: "https://github.com/ChauLe19/GitRecording"
                 },
                 {
                     type: LinkType.Youtube,
-                    href: "https://www.youtube.com/watch?v=EFS-EdkFegI"
-                },
-                {
-                    type: LinkType.Other,
-                    href: "https://github.com/ChauLe19/TetroRhythm/releases/tag/v0.1.0"
+                    href: "https://drive.google.com/file/d/13Yd6b4bP26e41f4KKFAzpyR6cK3pl5CF/view"
                 }
             ],
-            image: TetroRhythm,
-            description: "A puzzle game that challenges you to place blocks to the beat"
+            image: GitRecording,
+            description: "A webapp that allows students to look over the source code at their own pace in coding tutorials"
         },
         {
             name: "CalCheck",
@@ -68,6 +65,25 @@ class Projects extends Component {
             description: "An Android app for tracking expiration date of items"
         },
         {
+            name: "TetroRhythm",
+            links: [
+                {
+                    type: LinkType.Github,
+                    href: "https://github.com/ChauLe19/TetroRhythm"
+                },
+                {
+                    type: LinkType.Youtube,
+                    href: "https://www.youtube.com/watch?v=EFS-EdkFegI"
+                },
+                {
+                    type: LinkType.Other,
+                    href: "https://github.com/ChauLe19/TetroRhythm/releases/tag/v0.1.0"
+                }
+            ],
+            image: TetroRhythm,
+            description: "A puzzle game that challenges you to place blocks to the beat"
+        },
+        {
             name: "Chess",
             links: [
                 {
@@ -77,17 +93,6 @@ class Projects extends Component {
             ],
             image: Chess,
             description: "A 2-player chess game"
-        },
-        {
-            name: "BookTrader",
-            links: [
-                {
-                    type: LinkType.Github,
-                    href: "https://github.com/ChauLe19/Book_Exchange_v1.0"
-                }
-            ],
-            image: BookTrader,
-            description: "A website for buying and selling books"
         },
         {
             name: "Pic Made From Unicode Texts",
@@ -105,23 +110,15 @@ class Projects extends Component {
             description: "Convert your picture to a Picture made from Unicode Texts"
         },
         {
-            name: "Text Transformer",
+            name: "TetrioStats2Csv",
             links: [
                 {
-                    type: LinkType.Other,
-                    href: "/TextTransformer"
+                    type: LinkType.Github,
+                    href: "https://github.com/ChauLe19/TetrioStats2Csv"
                 }
             ],
-            image: TextTransformer,
-            description: "A customizable text transformer"
-        },
-        {
-            name: "Depreak",
-            links: [
-            ],
-            image: Depreak,
-            description: "A remix of the Brick Breaker game",
-            message: "I have no backup of this project :((("
+            image: "https://gateofdamascus.com/wp-content/uploads/2021/09/unavailable-image.jpg",
+            description: "Get Tetr.io players' stats and output to .csv file"
         },
         {
             name: "MIPS Simulator",
@@ -136,15 +133,34 @@ class Projects extends Component {
             message: "(University project. Code cannot be public anytime soon.)"
         },
         {
-            name: "TetrioStats2Csv",
+            name: "BookTrader",
             links: [
                 {
                     type: LinkType.Github,
-                    href: "https://github.com/ChauLe19/TetrioStats2Csv"
+                    href: "https://github.com/ChauLe19/Book_Exchange_v1.0"
                 }
             ],
-            image: "https://eagle-sensors.com/wp-content/uploads/unavailable-image.jpg",
-            description: "Get Tetr.io players' stats and output to .csv file"
+            image: BookTrader,
+            description: "A website for buying and selling books"
+        },
+        {
+            name: "Depreak",
+            links: [
+            ],
+            image: Depreak,
+            description: "A remix of the Brick Breaker game",
+            message: "I have no backup of this project :((("
+        },
+        {
+            name: "Text Transformer",
+            links: [
+                {
+                    type: LinkType.Other,
+                    href: "/TextTransformer"
+                }
+            ],
+            image: TextTransformer,
+            description: "A customizable text transformer"
         },
     ]
     
