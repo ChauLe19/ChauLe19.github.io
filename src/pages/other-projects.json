@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Smart Home Project",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/SmartHomeProject"
+            },
+            {
+                "type": "youtube",
+                "href": "https://www.youtube.com/watch?v=EYejsoCmu1w"
+            }
+        ],
+        "image": "SmartHome.png",
+        "description": "A home automation prototype controllable by a computer GUI application via Bluetooth",
+        "message": "(University project. Code cannot be public anytime soon.)"
+    },
+    {
+        "name": "Tetris Puzzle",
+        "links": [
+            {
+                "type": "other",
+                "href": "https://www.thingiverse.com/thing:4661066"
+            }
+        ],
+        "image": "TetrisPuzzle.png",
+        "description": "A 3D model of a Tetris Puzzle"
+    },
+    {
+        "name": "Automatic Plant Watering System",
+        "links": [
+            {
+                "type": "other",
+                "href": "https://drive.google.com/file/d/1Ltds0gr_l8ZcJWsi4f2SzXRMSAluUd-O/view?usp=sharing"
+            }
+        ],
+        "image": "AutoWateringSchem.jpg",
+        "description": "Automatic system that waters plants based on soil moisture"
+    },
+    {
+        "name": "Stackmat",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://drive.google.com/file/d/12SJhsdVNekENgSdLvOsQI23MkvlIu5VT/view"
+            },
+            {
+                "type": "youtube",
+                "href": "https://drive.google.com/file/d/1lDcPcrXZjifQzWkgSoDj4jNCBydAqcox/view"
+            },
+            {
+                "type": "other",
+                "href": "https://www.instructables.com/Arduino-Stack-Mat/"
+            }
+        ],
+        "image": "Stackmat.jpg",
+        "description": "A low-cost stackmat for cubing and cup stacking"
+    },
+    {
+        "name": "Pokeball Wireless Earbuds Case",
+        "links": [
+            {
+                "type": "other",
+                "href": "https://www.thingiverse.com/thing:5443386"
+            }
+        ],
+        "image": "Pokeball.jpg",
+        "description": "A 3D model of a wireless earbuds cases shaped like a Pokeball"
+    }
+]

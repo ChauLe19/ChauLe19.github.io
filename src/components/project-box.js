@@ -40,7 +40,7 @@ class Projects extends Component {
                     </b>
                     <div>
                         <img className="image"
-                            src={this.props.image} alt={`${this.props.name}`}/>
+                            src={isExternal(this.props.image) ? this.props.image : require(`../assets/${this.props.image}`)} alt={`${this.props.name}`}/>
                     </div>
                     <span className="description">
                         {this.props.description}

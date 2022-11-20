@@ -1,0 +1,144 @@
+[
+    {
+        "name": "GitRecording",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/GitRecording"
+            },
+            {
+                "type": "youtube",
+                "href": "https://drive.google.com/file/d/13Yd6b4bP26e41f4KKFAzpyR6cK3pl5CF/view"
+            }
+        ],
+        "image": "GitRecording.png",
+        "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials"
+    },
+    {
+        "name": "CalCheck",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/aditi977/CalCheck-2.0"
+            }
+        ],
+        "image": "CalCheck.png",
+        "description": "A calorie tracking website"
+    },
+    {
+        "name": "Xpira",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/daltarace/HackVioletProject"
+            },
+            {
+                "type": "youtube",
+                "href": "https://www.youtube.com/watch?v=aUJ_0MKUKnY"
+            },
+            {
+                "type": "other",
+                "href": "https://devpost.com/software/xpira"
+            }
+        ],
+        "image": "Xpira.png",
+        "description": "An Android app for tracking expiration date of items"
+    },
+    {
+        "name": "TetroRhythm",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/TetroRhythm"
+            },
+            {
+                "type": "youtube",
+                "href": "https://www.youtube.com/watch?v=EFS-EdkFegI"
+            },
+            {
+                "type": "other",
+                "href": "https://github.com/ChauLe19/TetroRhythm/releases/tag/v0.1.0"
+            }
+        ],
+        "image": "TetroRhythm.webp",
+        "description": "A puzzle game that challenges you to place blocks to the beat"
+    },
+    {
+        "name": "Chess",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/Chess"
+            }
+        ],
+        "image": "chess.png",
+        "description": "A 2-player chess game"
+    },
+    {
+        "name": "Pic Made From Unicode Texts",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/PicMadeFromTexts"
+            },
+            {
+                "type": "other",
+                "href": "https://chaule19.github.io/PicMadeFromTexts/"
+            }
+        ],
+        "image": "PicFromTexts.png",
+        "description": "Convert your picture to a Picture made from Unicode Texts"
+    },
+    {
+        "name": "TetrioStats2Csv",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/TetrioStats2Csv"
+            }
+        ],
+        "image": "https://gateofdamascus.com/wp-content/uploads/2021/09/unavailable-image.jpg",
+        "description": "Get Tetr.io players' stats and output to .csv file"
+    },
+    {
+        "name": "MIPS Simulator",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/MIPS_Simulator"
+            }
+        ],
+        "image": "MIPS Simulator.png",
+        "description": "A debugger for MIPS program",
+        "message": "(University project. Code cannot be public anytime soon.)"
+    },
+    {
+        "name": "BookTrader",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/Book_Exchange_v1.0"
+            }
+        ],
+        "image": "BookTrader.png",
+        "description": "A website for buying and selling books"
+    },
+    {
+        "name": "Depreak",
+        "links": [],
+        "image": "Depreak Gameplay.png",
+        "description": "A remix of the Brick Breaker game",
+        "message": "I have no backup of this project :((("
+    },
+    {
+        "name": "Text Transformer",
+        "links": [
+            {
+                "type": "other",
+                "href": "/TextTransformer"
+            }
+        ],
+        "image": "TextTransformer.png",
+        "description": "A customizable text transformer"
+    }
+]
