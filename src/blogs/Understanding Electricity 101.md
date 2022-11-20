@@ -140,13 +140,9 @@ We define:
 
 RECAP:
 
-| Term |Definition|	Symbol|	Unit |
-|:----:|:--------:|:-----:|:-----:|
-| Current | the moving speed of electrons |	$i$ |	$A$ |
-| Voltage |	potential difference between two points in the circuit | $v$ | $V$ |
-| Resistance | hindrance for current to flow |	$R$ |	$\Omega$ |
-| Power | electrical energy transferred per unit of time | $p$ | $W$ |
-
-Ohm's Law: $v = iR$
-
-Power: $p = vi$
+| Term |Definition|	Symbol| Formula | Unit |
+|:----:|:--------:|:-----:|:-------:|:----:|
+| Current | the moving speed of electrons |	$i$ | $i = v/R$ | $A$ |
+| Voltage |	potential difference between two points in the circuit | $v$ | $v = iR$ | $V$ |
+| Resistance | hindrance for current to flow |	$R$ | $R = v/i$ | $\Omega$ |
+| Power | electrical energy transferred per unit of time | $p$ | $p = vi$ | $W$ |
