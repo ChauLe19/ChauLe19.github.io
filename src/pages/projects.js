@@ -5,7 +5,6 @@ import OtherProjects from "./other-projects.json"
 
 class Projects extends Component {
     programmingProjects = ProgrammingProjects
-    
     otherProjects = OtherProjects
 
     render() {

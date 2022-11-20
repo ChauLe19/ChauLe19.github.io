@@ -111,7 +111,7 @@ input[type=checkbox] {
 
 .blog-container table {
   /* not ideal since we want to be flexible and not always divided equally */
-  table-layout: fixed;
+  /* table-layout: fixed; */
   width: 100%;
 }
 
