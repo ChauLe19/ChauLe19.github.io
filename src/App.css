@@ -50,7 +50,6 @@ a:hover.sidebar-item {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
 }
 
 .page-section {
@@ -97,7 +96,7 @@ input[type=checkbox] {
 }
 
 .blog-container {
-  margin:1rem;
+  margin: 1rem;
   padding-left: 3rem;
   padding-right: 3rem;
   background-color: var(--primaryColor);
@@ -131,6 +130,16 @@ input[type=checkbox] {
 
 .blog-container a {
   color: yellow;
+}
+
+.blogs-container {
+  font-size: 1.6rem;
+  gap: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -172,7 +181,7 @@ input[type=checkbox] {
   .menu a {
     background-color: var(--primaryColor);
   }
-  
+
   .blog-container {
     margin: 0;
     padding: 1rem;
@@ -188,11 +197,22 @@ input[type=checkbox] {
   #intro {
     padding: 1rem;
   }
+
+  .page {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
 }
 
 @media screen and (min-width:768px) {
   .projects-section {
     column-count: 1;
+  }
+
+  .page {
+    padding: 1rem;
   }
 }
 

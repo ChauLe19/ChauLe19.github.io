@@ -14,14 +14,14 @@
     visibility: visible;
 }
 
-.main {
+.project-box .main {
     background: var(--primaryColor);
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
 }
 
-.main .description {
+.project-box .main .description {
     font-size: 1.1rem;
     text-align: center;
 }
@@ -32,7 +32,7 @@
     width: 100%;
 }
 
-.overlay {
+.project-box .overlay {
     display: flex;
     background: var(--primaryColor);
     border-radius: 1rem;

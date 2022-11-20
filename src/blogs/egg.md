@@ -1,6 +1,6 @@
 # Easter egg
 
-This is unrealeased blog feature since I have no blogs yet.
+This is my planned topics I might write about.
 
 
 ## TODO
