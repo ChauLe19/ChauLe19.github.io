@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.49ad5ec4.css",
-    "main.js": "/static/js/main.91ed8a02.js",
+    "main.js": "/static/js/main.c8a4fd5d.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
+    "static/media/MosaicPictureGenerator.png": "/static/media/MosaicPictureGenerator.c410c76d5eff01a4de3b.png",
     "static/media/Pokeball.jpg": "/static/media/Pokeball.15063709231ea3263748.jpg",
     "static/media/SmartHome.png": "/static/media/SmartHome.c96802200af2781c2d43.png",
     "static/media/BookTrader.png": "/static/media/BookTrader.acb8b759e326b527fe95.png",
@@ -14,6 +15,7 @@
     "static/media/chess.png": "/static/media/chess.8e5b02704fe1025908c8.png",
     "static/media/MIPS Simulator.png": "/static/media/MIPS Simulator.59df1169bad900f6b7e0.png",
     "static/media/Xpira.png": "/static/media/Xpira.0cd6b809dc5a825107a6.png",
+    "static/media/GravityFallsTheme.jpg": "/static/media/GravityFallsTheme.bb8bba26f5d8e4853258.jpg",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/TetrisPuzzle.png": "/static/media/TetrisPuzzle.cd23f280640ad3cf290c.png",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -83,11 +85,11 @@
     "index.html": "/index.html",
     "static/media/Egg.md": "/static/media/Egg.d437a46e8fa47756b5e5.md",
     "main.49ad5ec4.css.map": "/static/css/main.49ad5ec4.css.map",
-    "main.91ed8a02.js.map": "/static/js/main.91ed8a02.js.map",
+    "main.c8a4fd5d.js.map": "/static/js/main.c8a4fd5d.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49ad5ec4.css",
-    "static/js/main.91ed8a02.js"
+    "static/js/main.c8a4fd5d.js"
   ]
 }
