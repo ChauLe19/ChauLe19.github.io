@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Xpira",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/daltarace/HackVioletProject"
+            },
+            {
+                "type": "youtube",
+                "href": "https://www.youtube.com/watch?v=aUJ_0MKUKnY"
+            },
+            {
+                "type": "other",
+                "href": "https://devpost.com/software/xpira"
+            }
+        ],
+        "image": "Xpira.png",
+        "description": "An Android app for tracking expiration date of items"
+    }
+]

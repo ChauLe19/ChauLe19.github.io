@@ -1,18 +1,30 @@
 [
     {
-        "name": "GitRecording",
+        "name": "Smart Home Project",
         "links": [
             {
                 "type": "github",
-                "href": "https://github.com/ChauLe19/GitRecording"
+                "href": "https://github.com/ChauLe19/SmartHomeProject"
             },
             {
                 "type": "youtube",
-                "href": "https://drive.google.com/file/d/13Yd6b4bP26e41f4KKFAzpyR6cK3pl5CF/view"
+                "href": "https://www.youtube.com/watch?v=EYejsoCmu1w"
             }
         ],
-        "image": "GitRecording.png",
-        "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials"
+        "image": "SmartHome.png",
+        "description": "A home automation prototype controllable by a computer GUI application via Bluetooth",
+        "message": "(University project. Code cannot be public anytime soon.)"
+    },
+    {
+        "name": "Automatic Plant Watering System",
+        "links": [
+            {
+                "type": "other",
+                "href": "https://drive.google.com/file/d/1Ltds0gr_l8ZcJWsi4f2SzXRMSAluUd-O/view?usp=sharing"
+            }
+        ],
+        "image": "AutoWateringSchem.jpg",
+        "description": "Automatic system that waters plants based on soil moisture"
     },
     {
         "name": "CalCheck",
@@ -20,29 +32,48 @@
             {
                 "type": "github",
                 "href": "https://github.com/aditi977/CalCheck-2.0"
+            },
+            {
+                "type": "other",
+                "href": "http://calcheck-app.herokuapp.com/"
             }
         ],
         "image": "CalCheck.png",
         "description": "A calorie tracking website"
     },
     {
-        "name": "Xpira",
+        "name": "Pic Made From Unicode Texts",
         "links": [
             {
                 "type": "github",
-                "href": "https://github.com/daltarace/HackVioletProject"
-            },
-            {
-                "type": "youtube",
-                "href": "https://www.youtube.com/watch?v=aUJ_0MKUKnY"
+                "href": "https://github.com/ChauLe19/PicMadeFromTexts"
             },
             {
                 "type": "other",
-                "href": "https://devpost.com/software/xpira"
+                "href": "https://chaule19.github.io/PicMadeFromTexts/"
             }
         ],
-        "image": "Xpira.png",
-        "description": "An Android app for tracking expiration date of items"
+        "image": "PicFromTexts.png",
+        "description": "Convert your picture to a Picture made from Unicode Texts"
+    },
+    {
+        "name": "Stackmat",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://drive.google.com/file/d/12SJhsdVNekENgSdLvOsQI23MkvlIu5VT/view"
+            },
+            {
+                "type": "youtube",
+                "href": "https://drive.google.com/file/d/1lDcPcrXZjifQzWkgSoDj4jNCBydAqcox/view"
+            },
+            {
+                "type": "other",
+                "href": "https://www.instructables.com/Arduino-Stack-Mat/"
+            }
+        ],
+        "image": "Stackmat.jpg",
+        "description": "A low-cost stackmat for cubing and cup stacking"
     },
     {
         "name": "TetroRhythm",
@@ -75,21 +106,6 @@
         "description": "A 2-player chess game"
     },
     {
-        "name": "Pic Made From Unicode Texts",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/PicMadeFromTexts"
-            },
-            {
-                "type": "other",
-                "href": "https://chaule19.github.io/PicMadeFromTexts/"
-            }
-        ],
-        "image": "PicFromTexts.png",
-        "description": "Convert your picture to a Picture made from Unicode Texts"
-    },
-    {
         "name": "TetrioStats2Csv",
         "links": [
             {
@@ -99,6 +115,21 @@
         ],
         "image": "https://gateofdamascus.com/wp-content/uploads/2021/09/unavailable-image.jpg",
         "description": "Get Tetr.io players' stats and output to .csv file"
+    },
+    {
+        "name": "GitRecording",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/GitRecording"
+            },
+            {
+                "type": "youtube",
+                "href": "https://drive.google.com/file/d/13Yd6b4bP26e41f4KKFAzpyR6cK3pl5CF/view"
+            }
+        ],
+        "image": "GitRecording.png",
+        "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials"
     },
     {
         "name": "MIPS Simulator",
@@ -111,6 +142,21 @@
         "image": "MIPS Simulator.png",
         "description": "A debugger for MIPS program",
         "message": "(University project. Code cannot be public anytime soon.)"
+    },
+    {
+        "name": "Mosaic Image Generator",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/MosaicImageMaker"
+            },
+            {
+                "type": "other",
+                "href": "https://mosaic-image-maker.vercel.app/"
+            }
+        ],
+        "image": "MosaicPictureGenerator.png",
+        "description": "A webapp that generates a mosaic image of your main photo out of many other cell images you provide"
     },
     {
         "name": "BookTrader",
