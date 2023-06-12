@@ -32,10 +32,6 @@
             {
                 "type": "github",
                 "href": "https://github.com/aditi977/CalCheck-2.0"
-            },
-            {
-                "type": "other",
-                "href": "http://calcheck-app.herokuapp.com/"
             }
         ],
         "image": "CalCheck.png",
@@ -156,7 +152,8 @@
             }
         ],
         "image": "MosaicPictureGenerator.png",
-        "description": "A webapp that generates a mosaic image of your main photo out of many other cell images you provide"
+        "description": "A webapp that generates a mosaic image of your main photo out of many other cell images you provide",
+        "message": "I don't have money to host the backend."
     },
     {
         "name": "BookTrader",
