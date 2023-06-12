@@ -12,7 +12,7 @@ Let me guess, you are trying to get a sense of electricity? You come to the righ
 
 Imagine you are a drop of water in the river flowing with thousands of others like you. Similarly, you are an electric charge (or an electron) rushing through with the crowd of many electrons like you. The flow of electrons is electricity!
 
-| ![Water Flow](/images/water_flow.jpg) | ![Electron Flow](/images/electron_flow.jpg) |
+|![Water Flow](/images/water_flow.jpg) | ![Electron Flow](/images/electron_flow.jpg) |
 |:----------:|:-------------:|
 | Water Flow  | Electron Flow |
 
