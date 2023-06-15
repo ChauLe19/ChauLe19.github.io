@@ -53,6 +53,17 @@
         "description": "Convert your picture to a Picture made from Unicode Texts"
     },
     {
+        "name": "TetrioStats2Csv",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/TetrioStats2Csv"
+            }
+        ],
+        "image": "https://gateofdamascus.com/wp-content/uploads/2021/09/unavailable-image.jpg",
+        "description": "Get Tetr.io players' stats and output to .csv file"
+    },
+    {
         "name": "Stackmat",
         "links": [
             {
@@ -91,55 +102,6 @@
         "description": "A puzzle game that challenges you to place blocks to the beat"
     },
     {
-        "name": "Chess",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/Chess"
-            }
-        ],
-        "image": "chess.png",
-        "description": "A 2-player chess game"
-    },
-    {
-        "name": "TetrioStats2Csv",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/TetrioStats2Csv"
-            }
-        ],
-        "image": "https://gateofdamascus.com/wp-content/uploads/2021/09/unavailable-image.jpg",
-        "description": "Get Tetr.io players' stats and output to .csv file"
-    },
-    {
-        "name": "GitRecording",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/GitRecording"
-            },
-            {
-                "type": "youtube",
-                "href": "https://drive.google.com/file/d/13Yd6b4bP26e41f4KKFAzpyR6cK3pl5CF/view"
-            }
-        ],
-        "image": "GitRecording.png",
-        "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials"
-    },
-    {
-        "name": "MIPS Simulator",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/MIPS_Simulator"
-            }
-        ],
-        "image": "MIPS Simulator.png",
-        "description": "A debugger for MIPS program",
-        "message": "(University project. Code cannot be public anytime soon.)"
-    },
-    {
         "name": "Mosaic Image Generator",
         "links": [
             {
@@ -165,6 +127,55 @@
         ],
         "image": "BookTrader.png",
         "description": "A website for buying and selling books"
+    },
+    {
+        "name": "Chess",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/Chess"
+            }
+        ],
+        "image": "chess.png",
+        "description": "A 2-player chess game"
+    },
+    {
+        "name": "HMI for PEBB",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/MDE_HMI"
+            }
+        ],
+        "image": "MDE_HMI.png",
+        "description": "Wireless Human Machine Interface for Controlling and Monitoring Power Electronics Building Blocks"
+    },
+    {
+        "name": "MIPS Simulator",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/MIPS_Simulator"
+            }
+        ],
+        "image": "MIPS Simulator.png",
+        "description": "A debugger for MIPS program",
+        "message": "(University project. Code cannot be public anytime soon.)"
+    },
+    {
+        "name": "GitRecording",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/GitRecording"
+            },
+            {
+                "type": "youtube",
+                "href": "https://drive.google.com/file/d/13Yd6b4bP26e41f4KKFAzpyR6cK3pl5CF/view"
+            }
+        ],
+        "image": "GitRecording.png",
+        "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials"
     },
     {
         "name": "Depreak",
