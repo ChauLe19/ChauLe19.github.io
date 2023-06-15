@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.49ad5ec4.css",
-    "main.js": "/static/js/main.40e88363.js",
+    "main.js": "/static/js/main.98fa89b3.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/MosaicPictureGenerator.png": "/static/media/MosaicPictureGenerator.c410c76d5eff01a4de3b.png",
     "static/media/Pokeball.jpg": "/static/media/Pokeball.15063709231ea3263748.jpg",
@@ -9,6 +9,7 @@
     "static/media/BookTrader.png": "/static/media/BookTrader.acb8b759e326b527fe95.png",
     "static/media/AutoWateringSchem.jpg": "/static/media/AutoWateringSchem.35d100723da2f861766b.jpg",
     "static/media/GitRecording.png": "/static/media/GitRecording.28ebd96d44626c4132e3.png",
+    "static/media/MDE_HMI.png": "/static/media/MDE_HMI.808bc23f01d66fb7f021.png",
     "static/media/TetroRhythm.webp": "/static/media/TetroRhythm.0131f9fe8e9732f09ab5.webp",
     "static/media/TextTransformer.png": "/static/media/TextTransformer.b3a57cfd58e15fab53b2.png",
     "static/media/chess.png": "/static/media/chess.8e5b02704fe1025908c8.png",
@@ -89,11 +90,11 @@
     "static/media/Big-O Notation.md": "/static/media/Big-O Notation.528286d596991e0fce97.md",
     "static/media/Egg.md": "/static/media/Egg.d437a46e8fa47756b5e5.md",
     "main.49ad5ec4.css.map": "/static/css/main.49ad5ec4.css.map",
-    "main.40e88363.js.map": "/static/js/main.40e88363.js.map",
+    "main.98fa89b3.js.map": "/static/js/main.98fa89b3.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49ad5ec4.css",
-    "static/js/main.40e88363.js"
+    "static/js/main.98fa89b3.js"
   ]
 }
