@@ -4,12 +4,6 @@
     margin-bottom: 1rem;
 }
 
-.project-box .overlay {
-    visibility: hidden;
-    /* disable double tap on mobile device */
-    transition:visibility 0.2s linear,opacity 0.2s linear;
-}
-
 .project-box:hover .overlay {
     visibility: visible;
 }
@@ -33,19 +27,43 @@
 }
 
 .project-box .overlay {
-    display: flex;
+    visibility: hidden;
+    display: grid;
+    grid-template-rows: 0.5fr max-content 0.5fr;
     background: var(--primaryColor);
     border-radius: 1rem;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding: 1rem;
     align-content: center;
     text-align: center;
+    flex-direction: column;
+
+    /* disable double tap on mobile device */
+    transition:visibility 0.2s linear,opacity 0.2s linear;
+
 }
 
-.overlay .link {
+.overlay .links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+}
+
+.overlay .technologies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.technologies span.name {
+    background-color: var(--secondaryColor);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
 }

@@ -40,14 +40,15 @@ class Projects extends Component {
                     </b>
                     <div>
                         <img className="image"
-                            src={isExternal(this.props.image) ? this.props.image : require(`../assets/${this.props.image}`)} alt={`${this.props.name}`}/>
+                            src={isExternal(this.props.image) ? this.props.image : require(`../assets/${this.props.image}`)} alt={`${this.props.name}`} />
                     </div>
                     <span className="description">
                         {this.props.description}
                     </span>
                 </div>
                 <div className="overlay">
-                    <div className="link">
+                    <div className="buffer"></div>
+                    <div className="links">
                         {this.props.links.map((link) => (
                             isExternal(link.href) ?
                                 <a href={link.href} key={`${this.props.name} ${link.href}`} target="_blank" rel="noreferrer">
@@ -58,12 +59,21 @@ class Projects extends Component {
                                     <LinkIcon type={link.type} />
                                 </Link>
                         ))}
-                    </div>
-                    {
-                        this.props.message !== undefined && this.props.message.length !== 0 &&
-                        <div style={{ fontSize: "1.1rem" }}>{this.props.message}</div>
+                        {
+                            this.props.message !== undefined && this.props.message.length !== 0 &&
+                            <div style={{ fontSize: "1.1rem" }}>{this.props.message}</div>
 
-                    }
+                        }
+                    </div>
+                    <div className="technologies">
+                        {
+                            this.props.technologies !== undefined && this.props.technologies.map((name) => (
+                                <span className="name">
+                                    {name}
+                                </span>
+                            ))
+                        }
+                    </div>
                 </div>
             </div >
         )
