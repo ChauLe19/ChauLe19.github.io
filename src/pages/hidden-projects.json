@@ -17,5 +17,16 @@
         ],
         "image": "Xpira.png",
         "description": "An Android app for tracking expiration date of items"
+    },
+    {
+        "name": "BookTrader",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/Book_Exchange_v1.0"
+            }
+        ],
+        "image": "BookTrader.png",
+        "description": "A website for buying and selling books"
     }
 ]

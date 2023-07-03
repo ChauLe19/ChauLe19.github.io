@@ -16,15 +16,19 @@
         "message": "(University project. Code cannot be public anytime soon.)"
     },
     {
-        "name": "Automatic Plant Watering System",
+        "name": "GitRecording",
         "links": [
             {
-                "type": "other",
-                "href": "https://drive.google.com/file/d/1Ltds0gr_l8ZcJWsi4f2SzXRMSAluUd-O/view?usp=sharing"
+                "type": "github",
+                "href": "https://github.com/ChauLe19/GitRecording"
+            },
+            {
+                "type": "youtube",
+                "href": "https://drive.google.com/file/d/13Yd6b4bP26e41f4KKFAzpyR6cK3pl5CF/view"
             }
         ],
-        "image": "AutoWateringSchem.jpg",
-        "description": "Automatic system that waters plants based on soil moisture"
+        "image": "GitRecording.png",
+        "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials"
     },
     {
         "name": "CalCheck",
@@ -38,30 +42,15 @@
         "description": "A calorie tracking website"
     },
     {
-        "name": "Pic Made From Unicode Texts",
+        "name": "Text Transformer",
         "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/PicMadeFromTexts"
-            },
             {
                 "type": "other",
-                "href": "https://chaule19.github.io/PicMadeFromTexts/"
+                "href": "/TextTransformer"
             }
         ],
-        "image": "PicFromTexts.png",
-        "description": "Convert your picture to a Picture made from Unicode Texts"
-    },
-    {
-        "name": "TetrioStats2Csv",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/TetrioStats2Csv"
-            }
-        ],
-        "image": "https://gateofdamascus.com/wp-content/uploads/2021/09/unavailable-image.jpg",
-        "description": "Get Tetr.io players' stats and output to .csv file"
+        "image": "TextTransformer.png",
+        "description": "A customizable text transformer"
     },
     {
         "name": "Stackmat",
@@ -118,15 +107,19 @@
         "message": "I don't have money to host the backend."
     },
     {
-        "name": "BookTrader",
+        "name": "Pic Made From Unicode Texts",
         "links": [
             {
                 "type": "github",
-                "href": "https://github.com/ChauLe19/Book_Exchange_v1.0"
+                "href": "https://github.com/ChauLe19/PicMadeFromTexts"
+            },
+            {
+                "type": "other",
+                "href": "https://chaule19.github.io/PicMadeFromTexts/"
             }
         ],
-        "image": "BookTrader.png",
-        "description": "A website for buying and selling books"
+        "image": "PicFromTexts.png",
+        "description": "Convert your picture to a Picture made from Unicode Texts"
     },
     {
         "name": "Chess",
@@ -167,21 +160,6 @@
         "message": "(University project. Code cannot be public anytime soon.)"
     },
     {
-        "name": "GitRecording",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/GitRecording"
-            },
-            {
-                "type": "youtube",
-                "href": "https://drive.google.com/file/d/13Yd6b4bP26e41f4KKFAzpyR6cK3pl5CF/view"
-            }
-        ],
-        "image": "GitRecording.png",
-        "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials"
-    },
-    {
         "name": "Depreak",
         "links": [],
         "image": "Depreak Gameplay.png",
@@ -189,14 +167,25 @@
         "message": "I have no backup of this project :((("
     },
     {
-        "name": "Text Transformer",
+        "name": "Automatic Plant Watering System",
         "links": [
             {
                 "type": "other",
-                "href": "/TextTransformer"
+                "href": "https://drive.google.com/file/d/1Ltds0gr_l8ZcJWsi4f2SzXRMSAluUd-O/view?usp=sharing"
             }
         ],
-        "image": "TextTransformer.png",
-        "description": "A customizable text transformer"
-    }
+        "image": "AutoWateringSchem.jpg",
+        "description": "Automatic system that waters plants based on soil moisture"
+    },
+    {
+        "name": "TetrioStats2Csv",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/TetrioStats2Csv"
+            }
+        ],
+        "image": "https://gateofdamascus.com/wp-content/uploads/2021/09/unavailable-image.jpg",
+        "description": "Get Tetr.io players' stats and output to .csv file"
+    }   
 ]
