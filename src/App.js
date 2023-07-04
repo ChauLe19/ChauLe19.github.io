@@ -7,7 +7,7 @@ import {
   Navigate
 } from "react-router-dom";
 import {
-  Fragment, useEffect
+  Fragment
 } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -20,7 +20,7 @@ import Blogs from './pages/blogs';
 function Intro() {
   return (
     <div className='page' id="intro">
-      <div>Hi, I'm Chau Le<div>A programmer who enjoys building things other than software too.</div>
+      <div>Hi, I'm Chau Le<div>A developer who enjoys building things other than software too.</div>
       </div>
     </div>
   )

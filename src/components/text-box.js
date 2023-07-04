@@ -1,5 +1,5 @@
 import "./text-box.css"
-import { Component, Fragment } from "react"
+import { Component } from "react"
 
 class TextBox extends Component {
     constructor(props) {
