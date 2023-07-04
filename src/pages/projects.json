@@ -13,7 +13,8 @@
         ],
         "image": "SmartHome.png",
         "description": "A home automation prototype controllable by a computer GUI application via Bluetooth",
-        "message": "(University project. Code cannot be public anytime soon.)"
+        "message": "(University project. Code cannot be public anytime soon.)",
+        "technologies": ["C++", "Arduino", "Processing"]
     },
     {
         "name": "GitRecording",
@@ -28,7 +29,8 @@
             }
         ],
         "image": "GitRecording.png",
-        "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials"
+        "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials",
+        "technologies": ["Typescript", "Express.js", "Angular", "Node.js", "HTML", "CSS"]
     },
     {
         "name": "CalCheck",
@@ -39,7 +41,16 @@
             }
         ],
         "image": "CalCheck.png",
-        "description": "A calorie tracking website"
+        "description": "A calorie tracking website",
+        "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "EJS", "MongoDB", "Nutritionix API"]
+    },
+    {
+        "name": "Depreak",
+        "links": [],
+        "image": "Depreak Gameplay.png",
+        "description": "A remix of the Brick Breaker game",
+        "message": "I have no backup of this project :(((",
+        "technologies": ["Java", "JavaFX"]
     },
     {
         "name": "Text Transformer",
@@ -50,26 +61,8 @@
             }
         ],
         "image": "TextTransformer.png",
-        "description": "A customizable text transformer"
-    },
-    {
-        "name": "Stackmat",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://drive.google.com/file/d/12SJhsdVNekENgSdLvOsQI23MkvlIu5VT/view"
-            },
-            {
-                "type": "youtube",
-                "href": "https://drive.google.com/file/d/1lDcPcrXZjifQzWkgSoDj4jNCBydAqcox/view"
-            },
-            {
-                "type": "other",
-                "href": "https://www.instructables.com/Arduino-Stack-Mat/"
-            }
-        ],
-        "image": "Stackmat.jpg",
-        "description": "A low-cost stackmat for cubing and cup stacking"
+        "description": "A customizable text transformer",
+        "technologies": ["JavaScript", "React.js"]
     },
     {
         "name": "TetroRhythm",
@@ -88,7 +81,8 @@
             }
         ],
         "image": "TetroRhythm.webp",
-        "description": "A puzzle game that challenges you to place blocks to the beat"
+        "description": "A puzzle game that challenges you to place blocks to the beat",
+        "technologies": ["C++", "SFML"]
     },
     {
         "name": "Mosaic Image Generator",
@@ -104,7 +98,40 @@
         ],
         "image": "MosaicPictureGenerator.png",
         "description": "A webapp that generates a mosaic image of your main photo out of many other cell images you provide",
-        "message": "I don't have money to host the backend."
+        "message": "I don't have money to host the backend.",
+        "technologies": ["JavaScript", "Python", "React.js", "Flask", "HTML", "CSS"]
+    },
+    {
+        "name": "Stackmat",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://drive.google.com/file/d/12SJhsdVNekENgSdLvOsQI23MkvlIu5VT/view"
+            },
+            {
+                "type": "youtube",
+                "href": "https://drive.google.com/file/d/1lDcPcrXZjifQzWkgSoDj4jNCBydAqcox/view"
+            },
+            {
+                "type": "other",
+                "href": "https://www.instructables.com/Arduino-Stack-Mat/"
+            }
+        ],
+        "image": "Stackmat.jpg",
+        "description": "A low-cost stackmat for cubing and cup stacking",
+        "technologies": ["C++", "Arduino"]
+    },
+    {
+        "name": "Chess",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/Chess"
+            }
+        ],
+        "image": "chess.png",
+        "description": "A 2-player chess game",
+        "technologies": ["Java", "JavaFX"]
     },
     {
         "name": "Pic Made From Unicode Texts",
@@ -119,18 +146,8 @@
             }
         ],
         "image": "PicFromTexts.png",
-        "description": "Convert your picture to a Picture made from Unicode Texts"
-    },
-    {
-        "name": "Chess",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/Chess"
-            }
-        ],
-        "image": "chess.png",
-        "description": "A 2-player chess game"
+        "description": "Convert your picture to a Picture made from Unicode Texts",
+        "technologies": ["JavaScript", "HTML", "CSS", "OpenCV"]
     },
     {
         "name": "HMI for PEBB",
@@ -145,7 +162,8 @@
             }
         ],
         "image": "MDE_HMI.png",
-        "description": "Wireless Human Machine Interface for Controlling and Monitoring Power Electronics Building Blocks"
+        "description": "Wireless Human Machine Interface for Controlling and Monitoring Power Electronics Building Blocks",
+        "technologies": ["C++", "Qt", "MQTT", "Raspberry Pi", "Boot2Qt"]
     },
     {
         "name": "MIPS Simulator",
@@ -157,14 +175,8 @@
         ],
         "image": "MIPS Simulator.png",
         "description": "A debugger for MIPS program",
-        "message": "(University project. Code cannot be public anytime soon.)"
-    },
-    {
-        "name": "Depreak",
-        "links": [],
-        "image": "Depreak Gameplay.png",
-        "description": "A remix of the Brick Breaker game",
-        "message": "I have no backup of this project :((("
+        "message": "(University project. Code cannot be public anytime soon.)",
+        "technologies": ["C++", "Qt", "Catch2", "QTest"]
     },
     {
         "name": "Automatic Plant Watering System",
@@ -175,7 +187,8 @@
             }
         ],
         "image": "AutoWateringSchem.jpg",
-        "description": "Automatic system that waters plants based on soil moisture"
+        "description": "Automatic system that waters plants based on soil moisture",
+        "technologies": ["C++", "Arduino"]
     },
     {
         "name": "TetrioStats2Csv",
@@ -186,6 +199,7 @@
             }
         ],
         "image": "https://gateofdamascus.com/wp-content/uploads/2021/09/unavailable-image.jpg",
-        "description": "Get Tetr.io players' stats and output to .csv file"
+        "description": "Get Tetr.io players' stats and output to .csv file",
+        "technologies": ["JavaScript"]
     }   
 ]

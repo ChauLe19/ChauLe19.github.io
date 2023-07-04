@@ -16,7 +16,8 @@
             }
         ],
         "image": "Xpira.png",
-        "description": "An Android app for tracking expiration date of items"
+        "description": "An Android app for tracking expiration date of items",
+        "technologies": ["Kotlin", "Android Studio"]
     },
     {
         "name": "BookTrader",
@@ -27,6 +28,7 @@
             }
         ],
         "image": "BookTrader.png",
-        "description": "A website for buying and selling books"
+        "description": "A website for buying and selling books",
+        "technologies": ["JavaScript", "Node.js", "React.js", "Google Books API", "GraphQL"]
     }
 ]

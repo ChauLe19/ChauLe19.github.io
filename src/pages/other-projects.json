@@ -8,7 +8,8 @@
             }
         ],
         "image": "TetrisPuzzle.png",
-        "description": "A 3D model of a Tetris Puzzle"
+        "description": "A 3D model of a Tetris Puzzle",
+        "technologies": ["SOLIDWORKS"]
     },
     {
         "name": "Gravity Falls Theme",
@@ -19,7 +20,8 @@
             }
         ],
         "image": "GravityFallsTheme.jpg",
-        "description": "An iOS theme for jailbroken iOS devices using Anemone featuring Gravity Falls"
+        "description": "An iOS theme for jailbroken iOS devices using Anemone featuring Gravity Falls",
+        "technologies": ["Photoshop", "Anemone"]
     },
     {
         "name": "Pokeball Wireless Earbuds Case",
@@ -30,6 +32,7 @@
             }
         ],
         "image": "Pokeball.jpg",
-        "description": "A 3D model of a wireless earbuds cases shaped like a Pokeball"
+        "description": "A 3D model of a wireless earbuds cases shaped like a Pokeball",
+        "technologies": ["SOLIDWORKS"]
     }
 ]
