@@ -76,7 +76,7 @@
                 "href": "https://www.youtube.com/watch?v=EFS-EdkFegI"
             },
             {
-                "type": "other",
+                "type": "download",
                 "href": "https://github.com/ChauLe19/TetroRhythm/releases/tag/v0.1.0"
             }
         ],
@@ -157,7 +157,7 @@
                 "href": "https://github.com/ChauLe19/MDE_HMI"
             },
             {
-                "type": "other",
+                "type": "image",
                 "href": "https://drive.google.com/drive/folders/1q99sy8FKa-cek-ru9-l4SW7cSXrMMinq?usp=sharing"
             }
         ],
