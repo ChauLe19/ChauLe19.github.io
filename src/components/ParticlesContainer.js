@@ -18,6 +18,14 @@ export class ParticlesContainer extends React.PureComponent{
             value: "#130027",
         },
       },
+      particles: {
+        number: {
+          value: 200,
+          density: {
+            enable: true
+          }
+        }
+      }
     };
 
     return <Particles options={options} init={this.customInit} />;
