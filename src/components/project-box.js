@@ -15,17 +15,17 @@ function LinkIcon(props) {
                 (() => {
                     switch (props.type) {
                         case LinkType.Github:
-                            return (<FontAwesomeIcon icon={faGithub} size="3x" style={{ padding: "1rem" }} />);
+                            return (<FontAwesomeIcon icon={faGithub} size="3x" style={{ padding: "0.7rem" }} />);
                         case LinkType.LinkedIn:
-                            return (<FontAwesomeIcon icon={faLinkedin} size="3x" style={{ padding: "1rem" }} />);
+                            return (<FontAwesomeIcon icon={faLinkedin} size="3x" style={{ padding: "0.7rem" }} />);
                         case LinkType.Youtube:
-                            return (<FontAwesomeIcon icon={faYoutube} size="3x" style={{ padding: "1rem" }} />);
+                            return (<FontAwesomeIcon icon={faYoutube} size="3x" style={{ padding: "0.7rem" }} />);
                         case LinkType.Image:
-                            return (<FontAwesomeIcon icon={faImage} size="3x" style={{ padding: "1rem" }} />);
+                            return (<FontAwesomeIcon icon={faImage} size="3x" style={{ padding: "0.7rem" }} />);
                         case LinkType.Download:
-                            return (<FontAwesomeIcon icon={faDownload} size="3x" style={{ padding: "1rem" }} />);
+                            return (<FontAwesomeIcon icon={faDownload} size="3x" style={{ padding: "0.7rem" }} />);
                         default:
-                            return (<FontAwesomeIcon icon={faArrowUpRightFromSquare} size="3x" style={{ padding: "1rem" }} />);
+                            return (<FontAwesomeIcon icon={faArrowUpRightFromSquare} size="3x" style={{ padding: "0.7rem" }} />);
                     }
                 })()
             }
