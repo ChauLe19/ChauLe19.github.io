@@ -34,6 +34,10 @@
   height: 100%;
 }
 
+#tsparticles {
+  z-index: -10;
+}
+
 .app-header {
   display: flex;
   flex-direction: column;

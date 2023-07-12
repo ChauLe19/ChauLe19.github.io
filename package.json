@@ -16,12 +16,14 @@
     "react-dom": "^18.2.0",
     "react-katex": "^3.0.1",
     "react-markdown": "^8.0.3",
+    "react-particles": "^2.10.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "rehype-katex": "^6.0.2",
     "remark-gfm": "^3.0.1",
     "remark-math": "^5.1.1",
     "remark-sub-super": "^1.0.20",
+    "tsparticles-preset-stars": "^2.10.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
