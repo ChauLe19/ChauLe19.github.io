@@ -53,7 +53,7 @@
 a.sidebar-item {
   border-radius: 0.5rem;
   color:white;
-  opacity: 75%;
+  opacity: 70%;
   transition-duration: 0.15s;
 }
 
@@ -63,14 +63,14 @@ a:hover.sidebar-item {
 }
 
 a.active.sidebar-item {
-  animation: 1s ease-out 0s buttonActiveAnimation;
+  animation: 0.5s ease-out 0s buttonActiveAnimation;
   background-color: var(--primaryColor);
   border-radius: 0.5rem;
   opacity: 100%;
 }
 
 #contacts .icon a {
-  opacity: 75%;
+  opacity: 70%;
   transition-duration: .15s;
 }
 
