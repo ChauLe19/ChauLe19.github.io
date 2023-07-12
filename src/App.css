@@ -5,6 +5,28 @@
   padding: 1rem;
 }
 
+@keyframes slideUpAnimation{
+  0% {
+      transform: translateY(100%);
+  }
+  100% {
+      transform: translateY(0);
+   }
+}
+
+@keyframes buttonActiveAnimation{
+  from {
+    background-color: var(--primaryColor);
+  }
+  from {
+    background-color: var(--secondaryColor);
+  }
+}
+
+#intro div {
+  animation: 1s ease-out 0s slideUpAnimation;
+}
+
 .app {
   display: flex;
   flex-direction: row;
@@ -30,16 +52,30 @@
 
 a.sidebar-item {
   border-radius: 0.5rem;
+  color:white;
+  opacity: 75%;
+  transition-duration: 0.15s;
 }
 
 a:hover.sidebar-item {
-  background-color: var(--primaryColor);
   border-radius: 0.5rem;
+  opacity: 100%;
 }
 
 a.active.sidebar-item {
+  animation: 1s ease-out 0s buttonActiveAnimation;
   background-color: var(--primaryColor);
   border-radius: 0.5rem;
+  opacity: 100%;
+}
+
+#contacts .icon a {
+  opacity: 75%;
+  transition-duration: .15s;
+}
+
+#contacts .icon a:hover {
+  opacity: 100%;
 }
 
 .contact .icon {
