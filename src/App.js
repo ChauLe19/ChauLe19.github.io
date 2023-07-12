@@ -4,7 +4,8 @@ import {
   Route,
   Link,
   Routes,
-  Navigate
+  Navigate,
+  NavLink
 } from "react-router-dom";
 import {
   Fragment
@@ -39,15 +40,15 @@ function App() {
           <input type="checkbox" id="checkbox_toggle" />
           <label htmlFor="checkbox_toggle" className="hamburger">&#9776;</label>
           <div id="menu" className='menu'>
-            <Link to="/" className="sidebar-item">
+            <NavLink to="/" className="sidebar-item" activeClassName="active">
               Home
-            </Link>
-            <Link to="/projects" className="sidebar-item">
+            </NavLink>
+            <NavLink to="/projects" className="sidebar-item" activeClassName="active">
               Projects
-            </Link>
-            <Link to="/blogs" className="sidebar-item">
+            </NavLink>
+            <NavLink to="/blogs" className="sidebar-item" activeClassName="active">
               Blogs
-            </Link>
+            </NavLink>
           </div>
           <div id="contacts" className="sidebar-item contact">
             <div className='icon'>

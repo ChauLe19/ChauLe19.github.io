@@ -37,6 +37,11 @@ a:hover.sidebar-item {
   border-radius: 0.5rem;
 }
 
+a.active.sidebar-item {
+  background-color: var(--primaryColor);
+  border-radius: 0.5rem;
+}
+
 .contact .icon {
   padding: 0.5rem;
 }
