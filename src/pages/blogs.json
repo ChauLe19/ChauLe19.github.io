@@ -1,5 +1,11 @@
 [
     {
+        "blog-title": "Egg",
+        "description": "This is my planned topics I might write about.",
+        "image": "https://cdn.britannica.com/94/151894-050-F72A5317/Brown-eggs.jpg",
+        "hidden": true
+    },
+    {
         "blog-title": "Hashing",
         "description": "Hashing study notes. Different hashing and probing techniques.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg"

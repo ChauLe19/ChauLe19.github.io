@@ -3,6 +3,7 @@ import BlogBox from "../components/blog-box";
 import BlogsList from "./blogs.json";
 
 class Blogs extends Component {
+    queryParameters = new URLSearchParams(window.location.search)
     render() {
         return (
             <div className="page">
@@ -10,7 +11,7 @@ class Blogs extends Component {
                 <article className="blogs-container">
                     {
                         BlogsList.map((blog) => (
-                            <BlogBox name={blog["blog-title"]} description={blog.description} image={isExternal(blog.image) ? blog.image : require(`../blogs/${blog.image}`)}/>
+                            (this.queryParameters.get("hidden") == "true" ? true : !blog.hidden) && <BlogBox name={blog["blog-title"]} description={blog.description} image={isExternal(blog.image) ? blog.image : require(`../blogs/${blog.image}`)}/>
                         ))
                     }
                 </article>

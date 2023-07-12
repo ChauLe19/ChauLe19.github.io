@@ -4,6 +4,7 @@ import ProgrammingProjects from "./projects.json"
 import OtherProjects from "./other-projects.json"
 
 class Projects extends Component {
+    queryParameters = new URLSearchParams(window.location.search)
     programmingProjects = ProgrammingProjects
     otherProjects = OtherProjects
 
@@ -13,7 +14,8 @@ class Projects extends Component {
                 <h1 style={{ textAlign: "center" }}>Programming Projects</h1>
                 <div className="projects-section">
                     {this.programmingProjects.map((project) => (
-                        <ProjectBox name={project.name} links={project.links} description={project.description} image={project.image} message={project.message} key={project.name} technologies={project.technologies} />
+                        // show hidden projects if url = (....?hidden=true)
+                        (this.queryParameters.get("hidden") == "true" ? true : !project.hidden) && <ProjectBox name={project.name} links={project.links} description={project.description} image={project.image} message={project.message} key={project.name} technologies={project.technologies} />
                     ))}
                 </div>
                 <h1 style={{ textAlign: "center" }}>Other Projects</h1>

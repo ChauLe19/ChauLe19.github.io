@@ -13,7 +13,7 @@
         ],
         "image": "SmartHome.png",
         "description": "A home automation prototype controllable by a computer GUI application via Bluetooth",
-        "message": "(University project. Code cannot be public anytime soon.)",
+        "message": "University project. Code cannot be public anytime soon.",
         "technologies": ["C++", "Arduino", "Processing"]
     },
     {
@@ -30,7 +30,7 @@
         ],
         "image": "GitRecording.png",
         "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials",
-        "technologies": ["Typescript", "Express.js", "Angular", "Node.js", "HTML", "CSS"]
+        "technologies": ["Typescript", "Express.js", "MongoDB", "Angular", "Node.js", "HTML", "CSS"]
     },
     {
         "name": "CalCheck",
@@ -59,18 +59,6 @@
         "description": "A remix of the Brick Breaker game",
         "message": "I have no backup of this project :(((",
         "technologies": ["Java", "JavaFX"]
-    },
-    {
-        "name": "Text Transformer",
-        "links": [
-            {
-                "type": "other",
-                "href": "/TextTransformer"
-            }
-        ],
-        "image": "TextTransformer.png",
-        "description": "A customizable text transformer",
-        "technologies": ["JavaScript", "React.js"]
     },
     {
         "name": "TetroRhythm",
@@ -130,32 +118,16 @@
         "technologies": ["C++", "Arduino"]
     },
     {
-        "name": "Chess",
+        "name": "Text Transformer",
         "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/Chess"
-            }
-        ],
-        "image": "chess.png",
-        "description": "A 2-player chess game",
-        "technologies": ["Java", "JavaFX"]
-    },
-    {
-        "name": "Pic Made From Unicode Texts",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/PicMadeFromTexts"
-            },
             {
                 "type": "other",
-                "href": "https://chaule19.github.io/PicMadeFromTexts/"
+                "href": "/TextTransformer"
             }
         ],
-        "image": "PicFromTexts.png",
-        "description": "Convert your picture to a Picture made from Unicode Texts",
-        "technologies": ["JavaScript", "HTML", "CSS", "OpenCV"]
+        "image": "TextTransformer.png",
+        "description": "A customizable text transformer",
+        "technologies": ["JavaScript", "React.js"]
     },
     {
         "name": "HMI for PEBB",
@@ -183,20 +155,70 @@
         ],
         "image": "MIPS Simulator.png",
         "description": "A debugger for MIPS program",
-        "message": "(University project. Code cannot be public anytime soon.)",
+        "message": "University project. Code cannot be public anytime soon.",
         "technologies": ["C++", "Qt", "Catch2", "QTest"]
+    },
+    {
+        "name": "Fert",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/aditi977/Fert"
+            },
+            {
+                "type": "youtube",
+                "href": "https://devpost.com/software/fert"
+            },
+            {
+                "type": "other",
+                "href": "https://aditi977.github.io/Fert/"
+            }
+        ],
+        "image": "Fert.png",
+        "description": "A 24h hackathon project that helps users keeping track of planting progress and finding location's temperate zone info useful for planting",
+        "technologies": ["HTML", "CSS", "React.js", "Material UI"]
+    },
+    {
+        "name": "Chess",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/Chess"
+            }
+        ],
+        "image": "chess.png",
+        "description": "A 2-player chess game",
+        "technologies": ["Java", "JavaFX"]
     },
     {
         "name": "Automatic Plant Watering System",
         "links": [
             {
-                "type": "other",
+                "type": "github",
                 "href": "https://drive.google.com/file/d/1Ltds0gr_l8ZcJWsi4f2SzXRMSAluUd-O/view?usp=sharing"
             }
         ],
         "image": "AutoWateringSchem.jpg",
         "description": "Automatic system that waters plants based on soil moisture",
-        "technologies": ["C++", "Arduino"]
+        "technologies": ["C++", "Arduino"],
+        "hidden": true
+    },
+    {
+        "name": "Pic Made From Unicode Texts",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/PicMadeFromTexts"
+            },
+            {
+                "type": "other",
+                "href": "https://chaule19.github.io/PicMadeFromTexts/"
+            }
+        ],
+        "image": "PicFromTexts.png",
+        "description": "Convert your picture to a Picture made from Unicode Texts",
+        "technologies": ["JavaScript", "HTML", "CSS", "OpenCV"],
+        "hidden": true
     },
     {
         "name": "TetrioStats2Csv",
@@ -208,6 +230,41 @@
         ],
         "image": "https://gateofdamascus.com/wp-content/uploads/2021/09/unavailable-image.jpg",
         "description": "Get Tetr.io players' stats and output to .csv file",
-        "technologies": ["JavaScript"]
-    }   
+        "technologies": ["JavaScript", "Node.js"],
+        "hidden": true
+    },
+    {
+        "name": "Xpira",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/daltarace/HackVioletProject"
+            },
+            {
+                "type": "youtube",
+                "href": "https://www.youtube.com/watch?v=aUJ_0MKUKnY"
+            },
+            {
+                "type": "other",
+                "href": "https://devpost.com/software/xpira"
+            }
+        ],
+        "image": "Xpira.png",
+        "description": "An Android app for tracking expiration date of items",
+        "technologies": ["Kotlin", "Android Studio"],
+        "hidden": true
+    },
+    {
+        "name": "BookTrader",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/Book_Exchange_v1.0"
+            }
+        ],
+        "image": "BookTrader.png",
+        "description": "A website for buying and selling books",
+        "technologies": ["JavaScript", "Node.js", "React.js", "Google Books API", "GraphQL"],
+        "hidden": true        
+    }
 ]
