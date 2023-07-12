@@ -6,7 +6,7 @@
 
 .overlay {
   position: absolute;
-  transition: opacity .2s ease-in-out;
+  transition: visibility .2s ease-in-out, opacity .2s ease-in-out;
   opacity: 0%;
   top: 0;
   right: 0;
@@ -16,6 +16,7 @@
 
 .project-box:hover .overlay {
     opacity: 97%;
+    visibility: visible;
 }
 
 .project-box .main {
@@ -38,6 +39,7 @@
 
 .project-box .overlay {
     display: grid;
+    visibility: hidden;
     grid-template-rows: 0.5fr max-content 0.5fr;
     background: var(--primaryColor);
     border-radius: 1rem;
