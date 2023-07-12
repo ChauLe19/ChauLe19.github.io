@@ -38,6 +38,14 @@
             {
                 "type": "github",
                 "href": "https://github.com/aditi977/CalCheck-2.0"
+            },
+            {
+                "type": "image",
+                "href": "https://drive.google.com/drive/folders/1LXQGdloll-zg6iVKGvD1466EvrOg8eRb?usp=sharing"
+            },
+            {
+                "type": "other",
+                "href": "https://calcheck.onrender.com"
             }
         ],
         "image": "CalCheck.png",
