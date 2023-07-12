@@ -51,15 +51,6 @@ button:hover {
   background-color: #f5eefd;
   cursor: pointer;
 }
-
-.overlay {
-  position: absolute;
-  opacity: 95%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
   
 h1 {
   font-weight: normal;
