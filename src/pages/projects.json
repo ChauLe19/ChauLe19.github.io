@@ -17,40 +17,44 @@
         "technologies": ["C++", "Arduino", "Processing"]
     },
     {
-        "name": "GitRecording",
+        "name": "BookTrader",
         "links": [
             {
                 "type": "github",
-                "href": "https://github.com/ChauLe19/GitRecording"
-            },
-            {
-                "type": "youtube",
-                "href": "https://drive.google.com/file/d/13Yd6b4bP26e41f4KKFAzpyR6cK3pl5CF/view"
-            }
-        ],
-        "image": "GitRecording.png",
-        "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials",
-        "technologies": ["Typescript", "Express.js", "MongoDB", "Angular", "Node.js", "HTML", "CSS"]
-    },
-    {
-        "name": "CalCheck",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/aditi977/CalCheck-2.0"
+                "href": "https://github.com/ChauLe19/Book_trader"
             },
             {
                 "type": "image",
-                "href": "https://drive.google.com/drive/folders/1LXQGdloll-zg6iVKGvD1466EvrOg8eRb?usp=sharing"
+                "href": "https://drive.google.com/drive/folders/1E_tiRFMBCnSIuTqZ7njmawA8BfQXqDGa?usp=sharing"
             },
             {
                 "type": "other",
-                "href": "https://calcheck-2-6a12e6f6d8ce.herokuapp.com"
+                "href": "https://book-trader-opal.vercel.app/"
             }
         ],
-        "image": "CalCheck.png",
-        "description": "A calorie tracking website",
-        "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "EJS", "MongoDB", "Nutritionix API"]
+        "image": "BookTrader.png",
+        "description": "A webapp for buying and selling used books",
+        "technologies": ["React.js", "MySQL", "HTML", "CSS", "Node.js", "JavaScript", "Open Library API"]
+    },
+    {
+        "name": "Fert",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/aditi977/Fert"
+            },
+            {
+                "type": "youtube",
+                "href": "https://devpost.com/software/fert"
+            },
+            {
+                "type": "other",
+                "href": "https://aditi977.github.io/Fert/"
+            }
+        ],
+        "image": "Fert.png",
+        "description": "A 24h hackathon project that provides a platform for users to keep track of planting progress and obtain planting tips",
+        "technologies": ["HTML", "CSS", "React.js", "Material UI"]
     },
     {
         "name": "Depreak",
@@ -58,7 +62,8 @@
         "image": "Depreak Gameplay.png",
         "description": "A remix of the Brick Breaker game",
         "message": "I have no backup of this project :(((",
-        "technologies": ["Java", "JavaFX"]
+        "technologies": ["Java", "JavaFX"],
+        "hidden": true
     },
     {
         "name": "TetroRhythm",
@@ -81,6 +86,71 @@
         "technologies": ["C++", "SFML"]
     },
     {
+        "name": "CalCheck",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/aditi977/CalCheck-2.0"
+            },
+            {
+                "type": "image",
+                "href": "https://drive.google.com/drive/folders/1LXQGdloll-zg6iVKGvD1466EvrOg8eRb?usp=sharing"
+            },
+            {
+                "type": "other",
+                "href": "https://calcheck-2-6a12e6f6d8ce.herokuapp.com"
+            }
+        ],
+        "image": "CalCheck.png",
+        "description": "A calorie tracking website",
+        "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "EJS", "MongoDB", "Nutritionix API"]
+    },
+    {
+        "name": "GitRecording",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/GitRecording"
+            },
+            {
+                "type": "youtube",
+                "href": "https://drive.google.com/file/d/13Yd6b4bP26e41f4KKFAzpyR6cK3pl5CF/view"
+            }
+        ],
+        "image": "GitRecording.png",
+        "description": "A webapp that allows students to look over the source code at their own pace in coding tutorials",
+        "technologies": ["Typescript", "Express.js", "MongoDB", "Angular", "Node.js", "HTML", "CSS"]
+    },
+    {
+        "name": "MIPS Simulator",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/MIPS_Simulator"
+            }
+        ],
+        "image": "MIPS Simulator.png",
+        "description": "A debugger for MIPS program",
+        "message": "University project. Code cannot be public anytime soon.",
+        "technologies": ["C++", "Qt", "Catch2", "QTest"]
+    },
+    {
+        "name": "HMI for PEBB",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/MDE_HMI"
+            },
+            {
+                "type": "image",
+                "href": "https://drive.google.com/drive/folders/1q99sy8FKa-cek-ru9-l4SW7cSXrMMinq?usp=sharing"
+            }
+        ],
+        "image": "MDE_HMI.png",
+        "description": "Wireless Human Machine Interface for Controlling and Monitoring Power Electronics Building Blocks",
+        "technologies": ["C++", "Qt", "MQTT", "Raspberry Pi", "Boot2Qt"]
+    },
+    {
         "name": "Mosaic Image Generator",
         "links": [
             {
@@ -96,6 +166,32 @@
         "description": "A webapp that generates a mosaic image of your main photo out of many other cell images you provide",
         "message": "I don't have money to host the backend.",
         "technologies": ["JavaScript", "Python", "React.js", "Flask", "HTML", "CSS"]
+    },
+    {
+        "name": "Chess",
+        "links": [
+            {
+                "type": "github",
+                "href": "https://github.com/ChauLe19/Chess"
+            }
+        ],
+        "image": "chess.png",
+        "description": "A 2-player chess game",
+        "technologies": ["Java", "JavaFX"],
+        "hidden": true
+    },
+    {
+        "name": "Text Transformer",
+        "links": [
+            {
+                "type": "other",
+                "href": "/TextTransformer"
+            }
+        ],
+        "image": "TextTransformer.png",
+        "description": "A customizable text transformer",
+        "technologies": ["JavaScript", "React.js"],
+        "hidden": true
     },
     {
         "name": "Stackmat",
@@ -116,79 +212,6 @@
         "image": "Stackmat.jpg",
         "description": "A low-cost stackmat for cubing and cup stacking",
         "technologies": ["C++", "Arduino"]
-    },
-    {
-        "name": "Text Transformer",
-        "links": [
-            {
-                "type": "other",
-                "href": "/TextTransformer"
-            }
-        ],
-        "image": "TextTransformer.png",
-        "description": "A customizable text transformer",
-        "technologies": ["JavaScript", "React.js"]
-    },
-    {
-        "name": "HMI for PEBB",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/MDE_HMI"
-            },
-            {
-                "type": "image",
-                "href": "https://drive.google.com/drive/folders/1q99sy8FKa-cek-ru9-l4SW7cSXrMMinq?usp=sharing"
-            }
-        ],
-        "image": "MDE_HMI.png",
-        "description": "Wireless Human Machine Interface for Controlling and Monitoring Power Electronics Building Blocks",
-        "technologies": ["C++", "Qt", "MQTT", "Raspberry Pi", "Boot2Qt"]
-    },
-    {
-        "name": "MIPS Simulator",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/MIPS_Simulator"
-            }
-        ],
-        "image": "MIPS Simulator.png",
-        "description": "A debugger for MIPS program",
-        "message": "University project. Code cannot be public anytime soon.",
-        "technologies": ["C++", "Qt", "Catch2", "QTest"]
-    },
-    {
-        "name": "Fert",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/aditi977/Fert"
-            },
-            {
-                "type": "youtube",
-                "href": "https://devpost.com/software/fert"
-            },
-            {
-                "type": "other",
-                "href": "https://aditi977.github.io/Fert/"
-            }
-        ],
-        "image": "Fert.png",
-        "description": "A 24h hackathon project that helps users keeping track of planting progress and finding location's temperate zone info useful for planting",
-        "technologies": ["HTML", "CSS", "React.js", "Material UI"]
-    },
-    {
-        "name": "Chess",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/Chess"
-            }
-        ],
-        "image": "chess.png",
-        "description": "A 2-player chess game",
-        "technologies": ["Java", "JavaFX"]
     },
     {
         "name": "Automatic Plant Watering System",
@@ -253,18 +276,5 @@
         "description": "An Android app for tracking expiration date of items",
         "technologies": ["Kotlin", "Android Studio"],
         "hidden": true
-    },
-    {
-        "name": "BookTrader",
-        "links": [
-            {
-                "type": "github",
-                "href": "https://github.com/ChauLe19/Book_Exchange_v1.0"
-            }
-        ],
-        "image": "BookTrader.png",
-        "description": "A website for buying and selling books",
-        "technologies": ["JavaScript", "Node.js", "React.js", "Google Books API", "GraphQL"],
-        "hidden": true        
     }
 ]
