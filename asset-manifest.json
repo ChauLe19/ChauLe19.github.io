@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.7ac6968e.css",
-    "main.js": "/static/js/main.e16f1166.js",
+    "main.js": "/static/js/main.f87e0f95.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/MosaicPictureGenerator.png": "/static/media/MosaicPictureGenerator.c410c76d5eff01a4de3b.png",
+    "static/media/BookTrader.png": "/static/media/BookTrader.98b08bc6f0010b289b9c.png",
     "static/media/Pokeball.jpg": "/static/media/Pokeball.15063709231ea3263748.jpg",
     "static/media/AutoWateringSchem.jpg": "/static/media/AutoWateringSchem.1fdfabe2f419f46bfb80.jpg",
     "static/media/Fert.png": "/static/media/Fert.ced15a6ae90707e70089.png",
     "static/media/SmartHome.png": "/static/media/SmartHome.c96802200af2781c2d43.png",
-    "static/media/BookTrader.png": "/static/media/BookTrader.acb8b759e326b527fe95.png",
     "static/media/GitRecording.png": "/static/media/GitRecording.28ebd96d44626c4132e3.png",
     "static/media/MDE_HMI.png": "/static/media/MDE_HMI.808bc23f01d66fb7f021.png",
     "static/media/TetroRhythm.webp": "/static/media/TetroRhythm.0131f9fe8e9732f09ab5.webp",
@@ -91,11 +91,11 @@
     "static/media/Big-O Notation.md": "/static/media/Big-O Notation.528286d596991e0fce97.md",
     "static/media/Egg.md": "/static/media/Egg.d437a46e8fa47756b5e5.md",
     "main.7ac6968e.css.map": "/static/css/main.7ac6968e.css.map",
-    "main.e16f1166.js.map": "/static/js/main.e16f1166.js.map",
+    "main.f87e0f95.js.map": "/static/js/main.f87e0f95.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ac6968e.css",
-    "static/js/main.e16f1166.js"
+    "static/js/main.f87e0f95.js"
   ]
 }
