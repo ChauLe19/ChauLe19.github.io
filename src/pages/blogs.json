@@ -6,6 +6,23 @@
         "hidden": true
     },
     {
+        "blog-title": "Perfect Language",
+        "description": "Just trying to imagine if a modern language was designed by linguists and engineers.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7KOcabTfqbXkhor5sulDAmf-KDZXY0WyRHtsDGCv0ig&s",
+        "hidden": true
+    },
+    {
+        "blog-title": "Design Patterns",
+        "description": "Design patterns",
+        "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240415164422/behavioral-design-patterns-new.png",
+        "hidden": true
+    },
+    {
+        "blog-title": "Sorting",
+        "description": "A collection of Sorting algorithms in gifs",
+        "image": "https://playtolearnpreschool.us/wp-content/uploads/2015/09/Chick-Pea-Sorting-by-Color-1.jpg"
+    },
+    {
         "blog-title": "Hashing",
         "description": "Hashing study notes. Different hashing and probing techniques.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg"
@@ -18,6 +35,7 @@
     {
         "blog-title": "Big-O Notation",
         "description": "Big O, Big Omega, Big Theta",
-        "image": "https://i.ytimg.com/vi/1tfdr1Iv6JA/maxresdefault.jpg"
+        "image": "https://i.ytimg.com/vi/1tfdr1Iv6JA/maxresdefault.jpg",
+        "hidden": true
     }
 ]

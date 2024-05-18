@@ -1,5 +1,7 @@
 # Big-O Notation
 
+---
+
 ## Big-O
 > := Upper Bound
 

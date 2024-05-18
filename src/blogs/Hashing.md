@@ -1,5 +1,7 @@
 # Hashing
 
+---
+
 ## Hash Function Principles
 Ideally, we want a hash function that maps keys to slots in a way that makes each slot in the hash table have equal probablility of being filled for the actual set keys being used.
 
