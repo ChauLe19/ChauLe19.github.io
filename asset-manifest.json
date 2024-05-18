@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ac6968e.css",
-    "main.js": "/static/js/main.f87e0f95.js",
+    "main.js": "/static/js/main.3869b119.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/MosaicPictureGenerator.png": "/static/media/MosaicPictureGenerator.c410c76d5eff01a4de3b.png",
     "static/media/BookTrader.png": "/static/media/BookTrader.98b08bc6f0010b289b9c.png",
@@ -79,23 +79,24 @@
     "static/media/KaTeX_Size4-Regular.woff": "/static/media/KaTeX_Size4-Regular.aeffd8025cba3647f1a6.woff",
     "static/media/Understanding Electricity 101.md": "/static/media/Understanding Electricity 101.113f3c225229e59cbc80.md",
     "static/media/KaTeX_Size1-Regular.woff2": "/static/media/KaTeX_Size1-Regular.6eec866c69313624be60.woff2",
-    "static/media/Hashing.md": "/static/media/Hashing.5a9c4d14cd33d6885506.md",
+    "static/media/Hashing.md": "/static/media/Hashing.3c1a979f29eddbb1c69c.md",
     "static/media/KaTeX_Size2-Regular.woff2": "/static/media/KaTeX_Size2-Regular.2960900c4f271311eb36.woff2",
     "static/media/KaTeX_Size4-Regular.woff2": "/static/media/KaTeX_Size4-Regular.e418bf257af1052628d8.woff2",
     "static/media/KaTeX_Size3-Regular.woff": "/static/media/KaTeX_Size3-Regular.7947224e8a9914fa332b.woff",
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
-    "static/media/Sorting.md": "/static/media/Sorting.6b8c3d3e20556987bdaf.md",
-    "static/media/Design Patterns.md": "/static/media/Design Patterns.eb036ff79a01149dd4ed.md",
+    "static/media/Sorting.md": "/static/media/Sorting.014f09af574e8507c504.md",
+    "static/media/Design Patterns.md": "/static/media/Design Patterns.e379aa11756137d04e53.md",
     "index.html": "/index.html",
-    "static/media/Memory Management.md": "/static/media/Memory Management.95268da49abbb303d236.md",
-    "static/media/Big-O Notation.md": "/static/media/Big-O Notation.528286d596991e0fce97.md",
-    "static/media/Egg.md": "/static/media/Egg.d437a46e8fa47756b5e5.md",
+    "static/media/Memory Management.md": "/static/media/Memory Management.4d4831c6bc16d9d52442.md",
+    "static/media/Big-O Notation.md": "/static/media/Big-O Notation.d22536c5e7d3d8834a5e.md",
+    "static/media/Egg.md": "/static/media/Egg.06ccb8146d6f438d7c93.md",
+    "static/media/Perfect Language.md": "/static/media/Perfect Language.343c08013dc29e4d1238.md",
     "main.7ac6968e.css.map": "/static/css/main.7ac6968e.css.map",
-    "main.f87e0f95.js.map": "/static/js/main.f87e0f95.js.map",
+    "main.3869b119.js.map": "/static/js/main.3869b119.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ac6968e.css",
-    "static/js/main.f87e0f95.js"
+    "static/js/main.3869b119.js"
   ]
 }

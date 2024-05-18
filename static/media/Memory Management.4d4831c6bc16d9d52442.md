@@ -1,5 +1,7 @@
 # Memory Management
 
+---
+
 ## First Fit
 > Loop through free list until you found the first free block that can fit the requested size
 

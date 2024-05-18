@@ -1,5 +1,7 @@
 # Sorting
 
+---
+
 ## Insertion Sort
 | ![Insertion Sort Gif](/images/Insertion_Sort.gif) |
 |:-------------:|
