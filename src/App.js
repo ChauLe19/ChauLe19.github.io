@@ -21,7 +21,9 @@ import Blogs from './pages/blogs';
 function Intro() {
   return (
     <div className='page' id="intro">
-      <div>Hi, I'm Chau Le<div>A developer who enjoys building things other than software too.</div>
+      <div>Hi, I'm Chau Le. <br/>
+      <code>&lt;Software Developer/&gt;</code><br/>
+      <p>I'm a builder at heart who enjoys every stage of the creative process.</p>
       </div>
     </div>
   )
