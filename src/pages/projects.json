@@ -74,14 +74,14 @@
             },
             {
                 "type": "youtube",
-                "href": "https://www.youtube.com/watch?v=EFS-EdkFegI"
+                "href": "https://youtu.be/MbGwEet1NWU?si=3D7Kid1_l3hR6FNE"
             },
             {
                 "type": "download",
-                "href": "https://github.com/ChauLe19/TetroRhythm/releases/tag/v0.1.0"
+                "href": "https://github.com/ChauLe19/TetroRhythm/releases/tag/v.1.0.0"
             }
         ],
-        "image": "TetroRhythm.webp",
+        "image": "https://i.ytimg.com/an_webp/MbGwEet1NWU/mqdefault_6s.webp?du=3000&sqp=CJCeoLIG&rs=AOn4CLD1FHGq6G9ROYwdCHuX6riQH7k6Mg",
         "description": "A puzzle game that challenges you to place blocks to the beat",
         "technologies": ["C++", "SFML"]
     },
@@ -94,7 +94,7 @@
             },
             {
                 "type": "image",
-                "href": "https://drive.google.com/drive/folders/1LXQGdloll-zg6iVKGvD1466EvrOg8eRb?usp=sharing"
+                "href": "https://drive.google.com/drive/folders/1LXQGdloll-zg6iVKGvD1466EvrOg8eRb?usp=drive_link"
             },
             {
                 "type": "other",
@@ -114,7 +114,7 @@
             },
             {
                 "type": "youtube",
-                "href": "https://drive.google.com/file/d/13Yd6b4bP26e41f4KKFAzpyR6cK3pl5CF/view"
+                "href": "https://youtu.be/gasss-74nMY?si=ECjkkW2JwYVHSgTK"
             }
         ],
         "image": "GitRecording.png",
@@ -143,7 +143,7 @@
             },
             {
                 "type": "image",
-                "href": "https://drive.google.com/drive/folders/1q99sy8FKa-cek-ru9-l4SW7cSXrMMinq?usp=sharing"
+                "href": "https://drive.google.com/drive/u/0/folders/1EMkfX7LxYF3P1l68lMHP-lGdVu0t8c4D"
             }
         ],
         "image": "MDE_HMI.png",
@@ -202,7 +202,7 @@
             },
             {
                 "type": "youtube",
-                "href": "https://drive.google.com/file/d/1lDcPcrXZjifQzWkgSoDj4jNCBydAqcox/view"
+                "href": "https://youtu.be/c8QTmNUrvuo"
             },
             {
                 "type": "other",
