@@ -1,4 +1,4 @@
-Perfect Language
+Perfect Language (logical, consistent, and simple)
 -----------
 
 
