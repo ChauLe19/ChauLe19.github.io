@@ -42,3 +42,5 @@ The final result: [TetroRhythm](https://youtu.be/MbGwEet1NWU)
 ![TetroRhythm - Final](/images/TetroRhythm-final.gif)
 
 This is signigicantly reduced number of intermediate steps and manage to let the user place a block by just a single swipe!!! While it has a learning curve to this due to the fact that players now need to the memorize the graph of gesture and orientation, but I believe it's an easy system to remember due to its logical nature of it.
+
+While this might not be a pefect system, I had a blast taking on this challenge. I learned to that not everything goes according to plan. And I learned to persevere through all the challenges that come in my way and 1 day you can achieve the goal that you have set for yourself. I hope you enjoy reading about my journey. Thank you so much for your time!
