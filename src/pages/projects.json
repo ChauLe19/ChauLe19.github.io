@@ -81,7 +81,7 @@
                 "href": "https://github.com/ChauLe19/TetroRhythm/releases/tag/v.1.0.0"
             }
         ],
-        "image": "https://i.ytimg.com/an_webp/MbGwEet1NWU/mqdefault_6s.webp?du=3000&sqp=CJCeoLIG&rs=AOn4CLD1FHGq6G9ROYwdCHuX6riQH7k6Mg",
+        "image": "TetroRhythm.gif",
         "description": "A puzzle game that challenges you to place blocks to the beat",
         "technologies": ["C++", "SFML"]
     },
