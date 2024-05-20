@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.c6a5acd5.css",
-    "main.js": "/static/js/main.98616434.js",
+    "main.js": "/static/js/main.c9354d4f.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/MosaicPictureGenerator.png": "/static/media/MosaicPictureGenerator.c410c76d5eff01a4de3b.png",
     "static/media/TetroRhythm.gif": "/static/media/TetroRhythm.7391d49fa7af4e73ca4a.gif",
     "static/media/BookTrader.png": "/static/media/BookTrader.98b08bc6f0010b289b9c.png",
     "static/media/Pokeball.jpg": "/static/media/Pokeball.15063709231ea3263748.jpg",
+    "static/media/TetroRhythm.png": "/static/media/TetroRhythm.d066df41e29218f6549e.png",
     "static/media/AutoWateringSchem.jpg": "/static/media/AutoWateringSchem.1fdfabe2f419f46bfb80.jpg",
     "static/media/Fert.png": "/static/media/Fert.ced15a6ae90707e70089.png",
     "static/media/SmartHome.png": "/static/media/SmartHome.c96802200af2781c2d43.png",
@@ -92,11 +93,11 @@
     "static/media/Perfect Language.md": "/static/media/Perfect Language.25533d3a439cac5db3f9.md",
     "static/media/Egg.md": "/static/media/Egg.06ccb8146d6f438d7c93.md",
     "main.c6a5acd5.css.map": "/static/css/main.c6a5acd5.css.map",
-    "main.98616434.js.map": "/static/js/main.98616434.js.map",
+    "main.c9354d4f.js.map": "/static/js/main.c9354d4f.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6a5acd5.css",
-    "static/js/main.98616434.js"
+    "static/js/main.c9354d4f.js"
   ]
 }
