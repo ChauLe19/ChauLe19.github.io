@@ -26,10 +26,6 @@
             {
                 "type": "image",
                 "href": "https://drive.google.com/drive/folders/1E_tiRFMBCnSIuTqZ7njmawA8BfQXqDGa?usp=sharing"
-            },
-            {
-                "type": "other",
-                "href": "https://book-trader-opal.vercel.app/"
             }
         ],
         "image": "BookTrader.png",
@@ -46,10 +42,6 @@
             {
                 "type": "youtube",
                 "href": "https://devpost.com/software/fert"
-            },
-            {
-                "type": "other",
-                "href": "https://aditi977.github.io/Fert/"
             }
         ],
         "image": "Fert.png",
@@ -95,10 +87,6 @@
             {
                 "type": "image",
                 "href": "https://drive.google.com/drive/folders/1LXQGdloll-zg6iVKGvD1466EvrOg8eRb?usp=drive_link"
-            },
-            {
-                "type": "other",
-                "href": "https://calcheck-2-6a12e6f6d8ce.herokuapp.com"
             }
         ],
         "image": "CalCheck.png",
