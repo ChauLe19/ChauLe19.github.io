@@ -117,8 +117,9 @@ a.active.sidebar-item {
 
 .projects-section .project-box {
   break-inside: avoid;
-  display: inline-block;
   width: 100%;
+  margin-top: 0px;
+  margin-bottom: 32px;
 }
 
 .menu {
