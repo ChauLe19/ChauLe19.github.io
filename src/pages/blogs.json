@@ -30,7 +30,8 @@
     {
         "blog-title": "Hashing",
         "description": "Hashing study notes. Different hashing and probing techniques.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg",
+        "hidden": true
     },
     {
         "blog-title": "Understanding Electricity 101",
