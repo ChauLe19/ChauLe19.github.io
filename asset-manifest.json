@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.a9e6cadc.css",
-    "main.js": "/static/js/main.14b5674e.js",
+    "main.js": "/static/js/main.2d0786a6.js",
     "static/js/453.96892d07.chunk.js": "/static/js/453.96892d07.chunk.js",
-    "static/media/likh.png": "/static/media/likh.55510f520341f30c504f.png",
+    "static/media/likh.png": "/static/media/likh.9fa4ae7c215f3c7e8e55.png",
     "static/media/MosaicPictureGenerator.png": "/static/media/MosaicPictureGenerator.c410c76d5eff01a4de3b.png",
     "static/media/TetroRhythm.gif": "/static/media/TetroRhythm.7391d49fa7af4e73ca4a.gif",
     "static/media/BookTrader.png": "/static/media/BookTrader.98b08bc6f0010b289b9c.png",
@@ -94,11 +94,11 @@
     "static/media/Perfect Language.md": "/static/media/Perfect Language.ec69612b260ed16e437c.md",
     "static/media/egg.md": "/static/media/egg.1670604cdc69ab381261.md",
     "main.a9e6cadc.css.map": "/static/css/main.a9e6cadc.css.map",
-    "main.14b5674e.js.map": "/static/js/main.14b5674e.js.map",
+    "main.2d0786a6.js.map": "/static/js/main.2d0786a6.js.map",
     "453.96892d07.chunk.js.map": "/static/js/453.96892d07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9e6cadc.css",
-    "static/js/main.14b5674e.js"
+    "static/js/main.2d0786a6.js"
   ]
 }
