@@ -1,5 +1,18 @@
 [
     {
+        "name": "likh",
+        "links": [
+            {
+                "type": "other",
+                "href": "https://likh.expo.app"
+            }
+        ],
+        "image": "likh.png",
+        "description": "A manga-focused note taking app that is perfect for recording personal thoughts & plot theories of manga series",
+        "message": "University project. Code cannot be public anytime soon.",
+        "technologies": ["C++", "Arduino", "Processing"]
+    },
+    {
         "name": "Smart Home Project",
         "links": [
             {
