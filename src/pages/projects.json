@@ -9,8 +9,7 @@
         ],
         "image": "likh.png",
         "description": "A manga-focused note taking app that is perfect for recording personal thoughts & plot theories of manga series",
-        "message": "University project. Code cannot be public anytime soon.",
-        "technologies": ["C++", "Arduino", "Processing"]
+        "technologies": ["React", "MongoDB", "Express", "Nativewind"]
     },
     {
         "name": "Smart Home Project",
@@ -43,7 +42,7 @@
         ],
         "image": "BookTrader.png",
         "description": "A webapp for buying and selling used books",
-        "technologies": ["React.js", "MySQL", "HTML", "CSS", "Node.js", "JavaScript", "Open Library API"]
+        "technologies": ["React", "MySQL", "Node.js", "JavaScript", "Open Library API"]
     },
     {
         "name": "Fert",
@@ -59,7 +58,7 @@
         ],
         "image": "Fert.png",
         "description": "A 24h hackathon project that provides a platform for users to keep track of planting progress and obtain planting tips",
-        "technologies": ["HTML", "CSS", "React.js", "Material UI"]
+        "technologies": ["React", "Material UI"]
     },
     {
         "name": "Depreak",
@@ -104,7 +103,7 @@
         ],
         "image": "CalCheck.png",
         "description": "A calorie tracking website",
-        "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "EJS", "MongoDB", "Nutritionix API"]
+        "technologies": ["JavaScript", "Node.js", "EJS", "MongoDB", "Nutritionix API"]
     },
     {
         "name": "GitRecording",
@@ -166,7 +165,7 @@
         "image": "MosaicPictureGenerator.png",
         "description": "A webapp that generates a mosaic image of your main photo out of many other cell images you provide",
         "message": "I don't have money to host the backend.",
-        "technologies": ["JavaScript", "Python", "React.js", "Flask", "HTML", "CSS"]
+        "technologies": ["JavaScript", "Python", "React", "Flask"]
     },
     {
         "name": "Chess",
@@ -191,7 +190,7 @@
         ],
         "image": "TextTransformer.png",
         "description": "A customizable text transformer",
-        "technologies": ["JavaScript", "React.js"],
+        "technologies": ["JavaScript", "React"],
         "hidden": true
     },
     {
